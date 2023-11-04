@@ -1,0 +1,579 @@
+{
+    "type": "scrollView",
+    "axis": "vertical",
+    "data": {
+        "content": {
+            "type": "lazyVStack",
+            "data": {
+                "content": [
+                    {
+                        "style": {
+                            "padding": {
+                                "bottom": "medium",
+                                "trailing": "medium",
+                                "top": "medium",
+                                "leading": "medium"
+                            },
+                            "stackSpacing": 8
+                        },
+                        "type": "vStack",
+                        "data": {
+                            "content": [
+                                {
+                                    "data": {
+                                        "content": [
+                                            {
+                                                "data": {
+                                                    "text": "Calculators"
+                                                },
+                                                "type": "text",
+                                                "style": {
+                                                    "foregroundColor": "secondaryText"
+                                                }
+                                            },
+                                            {
+                                                "type": "spacer"
+                                            }
+                                        ]
+                                    },
+                                    "type": "hStack"
+                                },
+                                {
+                                    "type": "vStack",
+                                    "data": {
+                                        "content": [
+                                            {
+                                                "data": {
+                                                    "actionURL": "https://apps.apple.com/au/app/finance-calculator/id1297956111?mt=12",
+                                                    "content": {
+                                                        "type": "hStack",
+                                                        "data": {
+                                                            "content": [
+                                                                {
+                                                                    "data": {
+                                                                        "imageReference": "finance_calculators_icon"
+                                                                    },
+                                                                    "type": "image",
+                                                                    "style": {
+                                                                        "width": 40
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "vStack",
+                                                                    "data": {
+                                                                        "content": [
+                                                                            {
+                                                                                "type": "hStack",
+                                                                                "data": {
+                                                                                    "content": [
+                                                                                        {
+                                                                                            "type": "text",
+                                                                                            "data": {
+                                                                                                "text": "Finance Calculator"
+                                                                                            },
+                                                                                            "style": {
+                                                                                                "multilineTextAlignment": "leading",
+                                                                                                "maxWidthInfinity": true,
+                                                                                                "alignment": "leading",
+                                                                                                "minWidth": 0
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "image",
+                                                                                            "data": {
+                                                                                                "systemName": "chevron.right"
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "type": "text",
+                                                                                "data": {
+                                                                                    "text": "Includes 97 financial calculators, equations and description"
+                                                                                },
+                                                                                "style": {
+                                                                                    "foregroundColor": "secondaryText",
+                                                                                    "multilineTextAlignment": "leading",
+                                                                                    "maxWidthInfinity": true,
+                                                                                    "alignment": "leading"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "style": {
+                                                            "padding": {
+                                                                "leading": "medium",
+                                                                "trailing": "medium",
+                                                                "bottom": "medium",
+                                                                "top": "medium"
+                                                            },
+                                                            "stackSpacing": 16,
+                                                            "foregroundColor": "primaryText"
+                                                        }
+                                                    }
+                                                },
+                                                "type": "button"
+                                            },
+                                            {
+                                                "type": "divider",
+                                                "style": {
+                                                    "padding": {
+                                                        "leading": "medium",
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "data": {
+                                                    "actionURL": "https://apps.apple.com/au/app/physics-calculators/id1297962147?mt=12",
+                                                    "content": {
+                                                        "type": "hStack",
+                                                        "data": {
+                                                            "content": [
+                                                                {
+                                                                    "data": {
+                                                                        "imageReference": "physics_calculators_icon"
+                                                                    },
+                                                                    "type": "image",
+                                                                    "style": {
+                                                                        "width": 40
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "vStack",
+                                                                    "data": {
+                                                                        "content": [
+                                                                            {
+                                                                                "type": "hStack",
+                                                                                "data": {
+                                                                                    "content": [
+                                                                                        {
+                                                                                            "type": "text",
+                                                                                            "data": {
+                                                                                                "text": "Physics Calculator"
+                                                                                            },
+                                                                                            "style": {
+                                                                                                "multilineTextAlignment": "leading",
+                                                                                                "maxWidthInfinity": true,
+                                                                                                "alignment": "leading",
+                                                                                                "minWidth": 0
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "image",
+                                                                                            "data": {
+                                                                                                "systemName": "chevron.right"
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "type": "text",
+                                                                                "data": {
+                                                                                    "text": "Includes 120 physics calculators, equations and description"
+                                                                                },
+                                                                                "style": {
+                                                                                    "foregroundColor": "secondaryText",
+                                                                                    "multilineTextAlignment": "leading",
+                                                                                    "maxWidthInfinity": true,
+                                                                                    "alignment": "leading"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "style": {
+                                                            "padding": {
+                                                                "leading": "medium",
+                                                                "trailing": "medium",
+                                                                "bottom": "medium",
+                                                                "top": "medium"
+                                                            },
+                                                            "stackSpacing": 16,
+                                                            "foregroundColor": "primaryText"
+                                                        }
+                                                    }
+                                                },
+                                                "type": "button"
+                                            },
+                                            {
+                                                "type": "divider",
+                                                "style": {
+                                                    "padding": {
+                                                        "leading": "medium",
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "data": {
+                                                    "actionURL": "https://apps.apple.com/au/app/geometry-calculator/id1286515380?mt=12",
+                                                    "content": {
+                                                        "type": "hStack",
+                                                        "data": {
+                                                            "content": [
+                                                                {
+                                                                    "data": {
+                                                                        "imageReference": "geometry_calculators_icon"
+                                                                    },
+                                                                    "type": "image",
+                                                                    "style": {
+                                                                        "width": 40
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "vStack",
+                                                                    "data": {
+                                                                        "content": [
+                                                                            {
+                                                                                "type": "hStack",
+                                                                                "data": {
+                                                                                    "content": [
+                                                                                        {
+                                                                                            "type": "text",
+                                                                                            "data": {
+                                                                                                "text": "Geometry Calculator"
+                                                                                            },
+                                                                                            "style": {
+                                                                                                "multilineTextAlignment": "leading",
+                                                                                                "maxWidthInfinity": true,
+                                                                                                "alignment": "leading",
+                                                                                                "minWidth": 0
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "image",
+                                                                                            "data": {
+                                                                                                "systemName": "chevron.right"
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "type": "text",
+                                                                                "data": {
+                                                                                    "text": "Includes 30 geometry calculators, equations and description"
+                                                                                },
+                                                                                "style": {
+                                                                                    "foregroundColor": "secondaryText",
+                                                                                    "multilineTextAlignment": "leading",
+                                                                                    "maxWidthInfinity": true,
+                                                                                    "alignment": "leading"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "style": {
+                                                            "padding": {
+                                                                "leading": "medium",
+                                                                "trailing": "medium",
+                                                                "bottom": "medium",
+                                                                "top": "medium"
+                                                            },
+                                                            "stackSpacing": 16,
+                                                            "foregroundColor": "primaryText"
+                                                        }
+                                                    }
+                                                },
+                                                "type": "button"
+                                            },
+                                            {
+                                                "type": "divider",
+                                                "style": {
+                                                    "padding": {
+                                                        "leading": "medium",
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "data": {
+                                                    "actionURL": "https://apps.apple.com/au/app/health-calculator/id1038950650",
+                                                    "content": {
+                                                        "type": "hStack",
+                                                        "data": {
+                                                            "content": [
+                                                                {
+                                                                    "data": {
+                                                                        "imageReference": "health_calculators_icon"
+                                                                    },
+                                                                    "type": "image",
+                                                                    "style": {
+                                                                        "width": 40
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "vStack",
+                                                                    "data": {
+                                                                        "content": [
+                                                                            {
+                                                                                "type": "hStack",
+                                                                                "data": {
+                                                                                    "content": [
+                                                                                        {
+                                                                                            "type": "text",
+                                                                                            "data": {
+                                                                                                "text": "Health Calculator"
+                                                                                            },
+                                                                                            "style": {
+                                                                                                "multilineTextAlignment": "leading",
+                                                                                                "maxWidthInfinity": true,
+                                                                                                "alignment": "leading",
+                                                                                                "minWidth": 0
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "image",
+                                                                                            "data": {
+                                                                                                "systemName": "chevron.right"
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "type": "text",
+                                                                                "data": {
+                                                                                    "text": "Includes 34 health calculators, equations and description"
+                                                                                },
+                                                                                "style": {
+                                                                                    "foregroundColor": "secondaryText",
+                                                                                    "multilineTextAlignment": "leading",
+                                                                                    "maxWidthInfinity": true,
+                                                                                    "alignment": "leading"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "style": {
+                                                            "padding": {
+                                                                "leading": "medium",
+                                                                "trailing": "medium",
+                                                                "bottom": "medium",
+                                                                "top": "medium"
+                                                            },
+                                                            "stackSpacing": 16,
+                                                            "foregroundColor": "primaryText"
+                                                        }
+                                                    }
+                                                },
+                                                "type": "button"
+                                            },
+                                            {
+                                                "type": "divider",
+                                                "style": {
+                                                    "padding": {
+                                                        "leading": "medium",
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "data": {
+                                                    "actionURL": "https://apps.apple.com/au/app/engineering-calculator/id1297957037?mt=12",
+                                                    "content": {
+                                                        "type": "hStack",
+                                                        "data": {
+                                                            "content": [
+                                                                {
+                                                                    "data": {
+                                                                        "imageReference": "engineering_calculators_icon"
+                                                                    },
+                                                                    "type": "image",
+                                                                    "style": {
+                                                                        "width": 40
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "vStack",
+                                                                    "data": {
+                                                                        "content": [
+                                                                            {
+                                                                                "type": "hStack",
+                                                                                "data": {
+                                                                                    "content": [
+                                                                                        {
+                                                                                            "type": "text",
+                                                                                            "data": {
+                                                                                                "text": "Engineering Calculator"
+                                                                                            },
+                                                                                            "style": {
+                                                                                                "multilineTextAlignment": "leading",
+                                                                                                "maxWidthInfinity": true,
+                                                                                                "alignment": "leading",
+                                                                                                "minWidth": 0
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "image",
+                                                                                            "data": {
+                                                                                                "systemName": "chevron.right"
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "type": "text",
+                                                                                "data": {
+                                                                                    "text": "Includes 59 engineering calculators, equations and description"
+                                                                                },
+                                                                                "style": {
+                                                                                    "foregroundColor": "secondaryText",
+                                                                                    "multilineTextAlignment": "leading",
+                                                                                    "maxWidthInfinity": true,
+                                                                                    "alignment": "leading"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "style": {
+                                                            "padding": {
+                                                                "leading": "medium",
+                                                                "trailing": "medium",
+                                                                "bottom": "medium",
+                                                                "top": "medium"
+                                                            },
+                                                            "stackSpacing": 16,
+                                                            "foregroundColor": "primaryText"
+                                                        }
+                                                    }
+                                                },
+                                                "type": "button"
+                                            }
+                                        ]
+                                    },
+                                    "style": {
+                                        "backgroundColor": "moduleBackground",
+                                        "cornerRadius": 8
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "data": {
+                            "content": [
+                                {
+                                    "data": {
+                                        "content": [
+                                            {
+                                                "type": "button",
+                                                "data": {
+                                                    "content": {
+                                                        "type": "hStack",
+                                                        "data": {
+                                                            "content": [
+                                                                {
+                                                                    "data": {
+                                                                        "imageReference": "CalcVerter-logo"
+                                                                    },
+                                                                    "type": "image",
+                                                                    "style": {
+                                                                        "width": 40
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "vStack",
+                                                                    "data": {
+                                                                        "content": [
+                                                                            {
+                                                                                "type": "hStack",
+                                                                                "data": {
+                                                                                    "content": [
+                                                                                        {
+                                                                                            "type": "text",
+                                                                                            "data": {
+                                                                                                "text": "CalcVerter"
+                                                                                            },
+                                                                                            "style": {
+                                                                                                "multilineTextAlignment": "leading",
+                                                                                                "maxWidthInfinity": true,
+                                                                                                "alignment": "leading",
+                                                                                                "minWidth": 0
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "type": "image",
+                                                                                            "data": {
+                                                                                                "systemName": "chevron.right"
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "type": "text",
+                                                                                "data": {
+                                                                                    "text": "All in one scientific calculator with tape, unit converter, over 500 built in equation calculators, base converter, periodic table and more"
+                                                                                },
+                                                                                "style": {
+                                                                                    "foregroundColor": "secondaryText",
+                                                                                    "multilineTextAlignment": "leading",
+                                                                                    "maxWidthInfinity": true,
+                                                                                    "alignment": "leading"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "style": {
+                                                            "padding": {
+                                                                "leading": "medium",
+                                                                "trailing": "medium",
+                                                                "bottom": "medium",
+                                                                "top": "medium"
+                                                            },
+                                                            "stackSpacing": 16,
+                                                            "foregroundColor": "primaryText"
+                                                        }
+                                                    },
+                                                    "actionURL": "https://apps.apple.com/au/app/calcverter/id1006610733"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "style": {
+                                        "backgroundColor": "moduleBackground",
+                                        "cornerRadius": 8
+                                    },
+                                    "type": "vStack"
+                                }
+                            ]
+                        },
+                        "type": "vStack",
+                        "style": {
+                            "stackSpacing": 8,
+                            "padding": {
+                                "top": "medium",
+                                "trailing": "medium",
+                                "bottom": "medium",
+                                "leading": "medium"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "style": {
+        "backgroundColor": "background",
+        "navigationTitle": "More apps",
+        "toolbarTitleDisplayMode": "inline"
+    }
+}

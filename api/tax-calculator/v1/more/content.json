@@ -1,0 +1,362 @@
+{
+    "type": "navigationStack",
+    "data": {
+        "navigationTitle": "More",
+        "content": {
+            "type": "scrollView",
+            "axis": "vertical",
+            "data": {
+                "content": {
+                    "type": "lazyVStack",
+                    "data": {
+                        "content": [
+                            {
+                                "data": {
+                                    "content": [
+                                        {
+                                            "type": "hStack",
+                                            "data": {
+                                                "content": [
+                                                    {
+                                                        "type": "text",
+                                                        "data": {
+                                                            "text": "Other Apps"
+                                                        },
+                                                        "style": {
+                                                            "foregroundColor": "secondaryText"
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "spacer"
+                                                    },
+                                                    {
+                                                        "type": "navigationLink",
+                                                        "data": {
+                                                            "label": {
+                                                                "style": {
+                                                                    "foregroundColor": "actionLink"
+                                                                },
+                                                                "type": "text",
+                                                                "data": {
+                                                                    "text": "See more"
+                                                                }
+                                                            },
+                                                            "content": {
+                                                                "type": "plugin",
+                                                                "data": {
+                                                                    "name": "more.apps"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "data": {
+                                                "content": [
+                                                    {
+                                                        "type": "button",
+                                                        "data": {
+                                                            "content": {
+                                                                "type": "vStack",
+                                                                "data": {
+                                                                    "content": [
+                                                                        {
+                                                                            "type": "hStack",
+                                                                            "data": {
+                                                                                "content": [
+                                                                                    {
+                                                                                        "type": "text",
+                                                                                        "data": {
+                                                                                            "text": "CalcVerter"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "spacer"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "image",
+                                                                                        "data": {
+                                                                                            "systemName": "chevron.right"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "style": {
+                                                                                "foregroundColor": "secondaryText"
+                                                                            },
+                                                                            "data": {
+                                                                                "text": "All in one scientific calculator with tape, plus unit converter, over 500 built in equation calculators, base converter, periodic table and more"
+                                                                            },
+                                                                            "type": "text"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "style": {
+                                                                    "multilineTextAlignment": "leading",
+                                                                    "stackSpacing": 8,
+                                                                    "padding": {
+                                                                        "top": "medium",
+                                                                        "leading": "medium",
+                                                                        "trailing": "medium",
+                                                                        "bottom": "medium"
+                                                                    },
+                                                                    "foregroundColor": "primaryText"
+                                                                }
+                                                            },
+                                                            "actionURL": "https://apps.apple.com/au/app/calcverter/id1006610733"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "style": {
+                                                "backgroundColor": "moduleBackground",
+                                                "cornerRadius": 8
+                                            },
+                                            "type": "vStack"
+                                        }
+                                    ]
+                                },
+                                "type": "vStack",
+                                "style": {
+                                    "stackSpacing": 8,
+                                    "padding": {
+                                        "top": "medium",
+                                        "trailing": "medium",
+                                        "bottom": "medium",
+                                        "leading": "medium"
+                                    }
+                                }
+                            },
+                            {
+                                "style": {
+                                    "padding": {
+                                        "bottom": "medium",
+                                        "trailing": "medium",
+                                        "top": "medium",
+                                        "leading": "medium"
+                                    },
+                                    "stackSpacing": 8
+                                },
+                                "type": "vStack",
+                                "data": {
+                                    "content": [
+                                        {
+                                            "data": {
+                                                "content": [
+                                                    {
+                                                        "data": {
+                                                            "text": "Popular links"
+                                                        },
+                                                        "type": "text",
+                                                        "style": {
+                                                            "foregroundColor": "secondaryText"
+                                                        }
+                                                     },
+                                                    {
+                                                        "type": "spacer"
+                                                    }
+                                                ]
+                                            },
+                                            "type": "hStack"
+                                        },
+                                        {
+                                            "type": "vStack",
+                                            "data": {
+                                                "content": [
+                                                    {
+                                                        "data": {
+                                                            "actionURL": "https://loaysetrak.com",
+                                                            "content": {
+                                                                "type": "hStack",
+                                                                "data": {
+                                                                    "content": [
+                                                                        {
+                                                                            "data": {
+                                                                                "systemName": "globe"
+                                                                            },
+                                                                            "type": "image"
+                                                                        },
+                                                                        {
+                                                                            "style": {
+                                                                                "multilineTextAlignment": "leading",
+                                                                                "maxWidthInfinity": true,
+                                                                                "alignment": "leading",
+                                                                                "minWidth": 0
+                                                                            },
+                                                                            "type": "text",
+                                                                            "data": {
+                                                                                "text": "Developer Website"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "data": {
+                                                                                "systemName": "chevron.right"
+                                                                            },
+                                                                            "type": "image"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "style": {
+                                                                    "padding": {
+                                                                        "leading": "medium",
+                                                                        "trailing": "medium",
+                                                                        "bottom": "medium",
+                                                                        "top": "medium"
+                                                                    },
+                                                                    "stackSpacing": 16,
+                                                                    "foregroundColor": "primaryText"
+                                                                }
+                                                            }
+                                                        },
+                                                        "type": "button"
+                                                    },
+                                                    {
+                                                        "type": "divider",
+                                                        "style": {
+                                                            "padding": {
+                                                                "leading": "medium",
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "button",
+                                                        "data": {
+                                                            "content": {
+                                                                "data": {
+                                                                    "content": [
+                                                                        {
+                                                                            "data": {
+                                                                                "systemName": "envelope"
+                                                                            },
+                                                                            "type": "image"
+                                                                        },
+                                                                        {
+                                                                            "type": "text",
+                                                                            "data": {
+                                                                                "text": "Contact Developer"
+                                                                            },
+                                                                            "style": {
+                                                                                "multilineTextAlignment": "leading",
+                                                                                "maxWidthInfinity": true,
+                                                                                "alignment": "leading",
+                                                                                "minWidth": 0
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type": "image",
+                                                                            "data": {
+                                                                                "systemName": "chevron.right"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "type": "hStack",
+                                                                "style": {
+                                                                    "foregroundColor": "primaryText",
+                                                                    "padding": {
+                                                                        "top": "medium",
+                                                                        "leading": "medium",
+                                                                        "bottom": "medium",
+                                                                        "trailing": "medium"
+                                                                    },
+                                                                    "stackSpacing": 16
+                                                                }
+                                                            },
+                                                            "actionURL": "mailto:loaysetrak.software@outlook.com.au"
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "divider",
+                                                        "style": {
+                                                            "padding": {
+                                                                "leading": "medium",
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "button",
+                                                        "data": {
+                                                            "content": {
+                                                                "type": "hStack",
+                                                                "style": {
+                                                                    "stackSpacing": 16,
+                                                                    "padding": {
+                                                                        "top": "medium",
+                                                                        "bottom": "medium",
+                                                                        "leading": "medium",
+                                                                        "trailing": "medium"
+                                                                    },
+                                                                    "foregroundColor": "primaryText"
+                                                                },
+                                                                "data": {
+                                                                    "content": [
+                                                                        {
+                                                                            "data": {
+                                                                                "systemName": "star"
+                                                                            },
+                                                                            "type": "image"
+                                                                        },
+                                                                        {
+                                                                            "style": {
+                                                                                "multilineTextAlignment": "leading",
+                                                                                "maxWidthInfinity": true,
+                                                                                "alignment": "leading",
+                                                                                "minWidth": 0
+                                                                            },
+                                                                            "data": {
+                                                                                "text": "Rate Tax Calculator"
+                                                                            },
+                                                                            "type": "text"
+                                                                        },
+                                                                        {
+                                                                            "data": {
+                                                                                "systemName": "chevron.right"
+                                                                            },
+                                                                            "type": "image"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "actionURL": "https://apps.apple.com/au/app/tax-calculator-australia/id6468901812"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "style": {
+                                                "backgroundColor": "moduleBackground",
+                                                "cornerRadius": 8
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "data": {
+                                    "name": "more.tipjar"
+                                },
+                                "type": "plugin",
+                                "style": {
+                                    "backgroundColor": "moduleBackground",
+                                    "cornerRadius": 8,
+                                    "padding": {
+                                        "top": "medium",
+                                        "bottom": "medium",
+                                        "leading": "medium",
+                                        "trailing": "medium"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "style": {
+                "backgroundColor": "background"
+            }
+        }
+    }
+}
