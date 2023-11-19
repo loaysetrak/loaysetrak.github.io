@@ -1,0 +1,3181 @@
+{
+    "tables": [
+        {
+            "incomeTax": {
+                "noTaxFreeThreshold": [
+                    {
+                        "toIncome": 37000,
+                        "fromIncome": 0,
+                        "taxRate": 19,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 87000,
+                        "fromIncome": 37001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 7030
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 87001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 23280
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 57690,
+                        "fromIncome": 180000
+                    }
+                ],
+                "nonResident": [
+                    {
+                        "toIncome": 87000,
+                        "fromIncome": 0,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 87001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 28275
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 62685,
+                        "fromIncome": 180000
+                    }
+                ],
+                "australianResident": [
+                    {
+                        "toIncome": 18200,
+                        "fromIncome": 0,
+                        "taxRate": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 37000,
+                        "taxRate": 19,
+                        "fromIncome": 18201,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 87000,
+                        "fromIncome": 37001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 3572
+                    },
+                    {
+                        "toIncome": 180000,
+                        "taxRate": 37,
+                        "fromIncome": 87001,
+                        "baseTaxAmount": 19822
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 54232
+                    }
+                ],
+                "backpacker": [
+                    {
+                        "toIncome": 37000,
+                        "fromIncome": 0,
+                        "taxRate": 15,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 87000,
+                        "fromIncome": 37001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 5550
+                    },
+                    {
+                        "toIncome": 180000,
+                        "taxRate": 37,
+                        "fromIncome": 87001,
+                        "baseTaxAmount": 21800
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 56210
+                    }
+                ]
+            },
+            "studentLoan": [
+                {
+                    "toIncome": 55874,
+                    "repaymentRate": 0,
+                    "fromIncome": 0
+                },
+                {
+                    "toIncome": 62238,
+                    "fromIncome": 55874,
+                    "repaymentRate": 4
+                },
+                {
+                    "toIncome": 68602,
+                    "fromIncome": 62239,
+                    "repaymentRate": 4.5
+                },
+                {
+                    "toIncome": 72207,
+                    "repaymentRate": 5,
+                    "fromIncome": 68603
+                },
+                {
+                    "toIncome": 77618,
+                    "repaymentRate": 5.5,
+                    "fromIncome": 72208
+                },
+                {
+                    "toIncome": 84062,
+                    "repaymentRate": 6,
+                    "fromIncome": 77619
+                },
+                {
+                    "toIncome": 88486,
+                    "repaymentRate": 6.5,
+                    "fromIncome": 84063
+                },
+                {
+                    "toIncome": 97377,
+                    "fromIncome": 88487,
+                    "repaymentRate": 7
+                },
+                {
+                    "toIncome": 103765,
+                    "repaymentRate": 7.5,
+                    "fromIncome": 97378
+                },
+                {
+                    "fromIncome": 103766,
+                    "repaymentRate": 8
+                }
+            ],
+            "seniorAndPensionerTaxOffset": {
+                "single": [
+                    {
+                        "toIncome": 32279,
+                        "value": 2230,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 50119,
+                        "value": 2230,
+                        "fromIncome": 32279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 50119,
+                        "deduction": 0
+                    }
+                ],
+                "illness": [
+                    {
+                        "toIncome": 31279,
+                        "value": 2040,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 47599,
+                        "value": 2040,
+                        "fromIncome": 31279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 47599,
+                        "deduction": 0
+                    }
+                ],
+                "married": [
+                    {
+                        "toIncome": 28974,
+                        "value": 1602,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 41790,
+                        "value": 1602,
+                        "fromIncome": 28974,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 41790,
+                        "deduction": 0
+                    }
+                ]
+            },
+            "financialYear": "fy2018",
+            "superannuation": {
+                "maxContributionPerQuarter": 52760,
+                "concessionalCap": 25000,
+                "nonConcessionalExcessTax": 0.47,
+                "superGuarantee": 9.5,
+                "nonConcesssionalCap": 100000,
+                "concessionalTax": 0.15
+            },
+            "lowIncomeTaxOffset": [
+                {
+                    "toIncome": 37000,
+                    "value": 445,
+                    "fromIncome": 0,
+                    "deduction": 0
+                },
+                {
+                    "toIncome": 66667,
+                    "value": 445,
+                    "fromIncome": 37000,
+                    "deduction": 0.015
+                },
+                {
+                    "value": 0,
+                    "fromIncome": 66667,
+                    "deduction": 0
+                }
+            ],
+            "medicareLevySurchage": {
+                "singleMedicareLevySurcharge": [
+                    {
+                        "toIncome": 90000,
+                        "surchargeRate": 0,
+                        "fromIncome": 0
+                    },
+                    {
+                        "toIncome": 105000,
+                        "surchargeRate": 1,
+                        "fromIncome": 90001
+                    },
+                    {
+                        "toIncome": 140000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 105001
+                    },
+                    {
+                        "surchargeRate": 1.5,
+                        "fromIncome": 140001
+                    }
+                ],
+                "familyMedicareLevySurcharge": [
+                    {
+                        "toIncome": 180000,
+                        "surchargeRate": 0,
+                        "fromIncome": 0
+                    },
+                    {
+                        "toIncome": 210000,
+                        "surchargeRate": 1,
+                        "fromIncome": 180001
+                    },
+                    {
+                        "toIncome": 280000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 210001
+                    },
+                    {
+                        "surchargeRate": 1.5,
+                        "fromIncome": 280001
+                    }
+                ]
+            },
+            "medicareLevy": {
+                "medicareFamilyBrackets": {
+                    "dependants": 3406,
+                    "brackets": [
+                        {
+                            "lowerThreshold": 0,
+                            "upperThreshold": 37089,
+                            "rate": 0
+                        },
+                        {
+                            "lowerThreshold": 37089,
+                            "rate": 10,
+                            "upperThreshold": 46361
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 46361
+                        }
+                    ]
+                },
+                "medicareSeniorFamilyBrackets": {
+                    "dependants": 3406,
+                    "brackets": [
+                        {
+                            "upperThreshold": 48385,
+                            "lowerThreshold": 0,
+                            "rate": 0
+                        },
+                        {
+                            "lowerThreshold": 48385,
+                            "upperThreshold": 60481,
+                            "rate": 10
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 60481
+                        }
+                    ]
+                },
+                "medicareSeniorBrackets": {
+                    "brackets": [
+                        {
+                            "upperThreshold": 34758,
+                            "lowerThreshold": 0,
+                            "rate": 0
+                        },
+                        {
+                            "lowerThreshold": 34758,
+                            "rate": 10,
+                            "upperThreshold": 43447
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 43447
+                        }
+                    ]
+                },
+                "medicareBrackets": {
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 21980
+                        },
+                        {
+                            "rate": 10,
+                            "lowerThreshold": 21980,
+                            "upperThreshold": 27475
+                        },
+                        {
+                            "lowerThreshold": 27475,
+                            "rate": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "incomeTax": {
+                "noTaxFreeThreshold": [
+                    {
+                        "toIncome": 37000,
+                        "fromIncome": 0,
+                        "taxRate": 19,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 90000,
+                        "fromIncome": 37001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 7030
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 90001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 24255
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 57555
+                    }
+                ],
+                "nonResident": [
+                    {
+                        "toIncome": 90000,
+                        "fromIncome": 0,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 180000,
+                        "taxRate": 37,
+                        "fromIncome": 90001,
+                        "baseTaxAmount": 29250
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 62550,
+                        "fromIncome": 180000
+                    }
+                ],
+                "backpacker": [
+                    {
+                        "toIncome": 37000,
+                        "taxRate": 15,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 90000,
+                        "fromIncome": 37001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 5550
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 90001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 22775
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 56075
+                    }
+                ],
+                "australianResident": [
+                    {
+                        "toIncome": 18200,
+                        "taxRate": 0,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 37000,
+                        "fromIncome": 18201,
+                        "taxRate": 19,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 90000,
+                        "fromIncome": 37001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 3572
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 90001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 20797
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 54097
+                    }
+                ]
+            },
+            "studentLoan": [
+                {
+                    "toIncome": 51957,
+                    "repaymentRate": 0,
+                    "fromIncome": 0
+                },
+                {
+                    "toIncome": 57729,
+                    "fromIncome": 51957,
+                    "repaymentRate": 2
+                },
+                {
+                    "toIncome": 64306,
+                    "repaymentRate": 4,
+                    "fromIncome": 57730
+                },
+                {
+                    "toIncome": 70881,
+                    "fromIncome": 64307,
+                    "repaymentRate": 4.5
+                },
+                {
+                    "toIncome": 74607,
+                    "repaymentRate": 5,
+                    "fromIncome": 70882
+                },
+                {
+                    "toIncome": 80197,
+                    "fromIncome": 74608,
+                    "repaymentRate": 5.5
+                },
+                {
+                    "toIncome": 86855,
+                    "fromIncome": 80198,
+                    "repaymentRate": 6
+                },
+                {
+                    "toIncome": 91425,
+                    "repaymentRate": 6.5,
+                    "fromIncome": 86856
+                },
+                {
+                    "toIncome": 100613,
+                    "fromIncome": 91426,
+                    "repaymentRate": 7
+                },
+                {
+                    "toIncome": 107213,
+                    "fromIncome": 100614,
+                    "repaymentRate": 7.5
+                },
+                {
+                    "fromIncome": 107214,
+                    "repaymentRate": 8
+                }
+            ],
+            "financialYear": "fy2019",
+            "seniorAndPensionerTaxOffset": {
+                "illness": [
+                    {
+                        "toIncome": 31279,
+                        "value": 2040,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 47599,
+                        "value": 2040,
+                        "fromIncome": 31279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 47599,
+                        "deduction": 0
+                    }
+                ],
+                "married": [
+                    {
+                        "toIncome": 28974,
+                        "value": 1602,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 41790,
+                        "value": 1602,
+                        "fromIncome": 28974,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 41790,
+                        "deduction": 0
+                    }
+                ],
+                "single": [
+                    {
+                        "toIncome": 32279,
+                        "value": 2230,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 50119,
+                        "value": 2230,
+                        "fromIncome": 32279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "deduction": 0,
+                        "fromIncome": 50119
+                    }
+                ]
+            },
+            "superannuation": {
+                "nonConcessionalExcessTax": 0.47,
+                "concessionalCap": 25000,
+                "maxContributionPerQuarter": 54030,
+                "superGuarantee": 9.5,
+                "nonConcesssionalCap": 100000,
+                "concessionalTax": 0.15
+            },
+            "lowIncomeTaxOffset": [
+                {
+                    "toIncome": 37000,
+                    "value": 445,
+                    "fromIncome": 0,
+                    "deduction": 0
+                },
+                {
+                    "toIncome": 66667,
+                    "value": 445,
+                    "fromIncome": 37000,
+                    "deduction": 0.015
+                },
+                {
+                    "value": 0,
+                    "fromIncome": 66667,
+                    "deduction": 0
+                }
+            ],
+            "medicareLevySurchage": {
+                "singleMedicareLevySurcharge": [
+                    {
+                        "toIncome": 90000,
+                        "fromIncome": 0,
+                        "surchargeRate": 0
+                    },
+                    {
+                        "toIncome": 105000,
+                        "fromIncome": 90001,
+                        "surchargeRate": 1
+                    },
+                    {
+                        "toIncome": 140000,
+                        "fromIncome": 105001,
+                        "surchargeRate": 1.25
+                    },
+                    {
+                        "surchargeRate": 1.5,
+                        "fromIncome": 140001
+                    }
+                ],
+                "familyMedicareLevySurcharge": [
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 0,
+                        "surchargeRate": 0
+                    },
+                    {
+                        "toIncome": 210000,
+                        "fromIncome": 180001,
+                        "surchargeRate": 1
+                    },
+                    {
+                        "toIncome": 280000,
+                        "fromIncome": 210001,
+                        "surchargeRate": 1.25
+                    },
+                    {
+                        "surchargeRate": 1.5,
+                        "fromIncome": 280001
+                    }
+                ]
+            },
+            "medicareLevy": {
+                "medicareFamilyBrackets": {
+                    "dependants": 3471,
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 37794
+                        },
+                        {
+                            "lowerThreshold": 37794,
+                            "upperThreshold": 47243,
+                            "rate": 10
+                        },
+                        {
+                            "lowerThreshold": 47243,
+                            "rate": 2
+                        }
+                    ]
+                },
+                "medicareSeniorFamilyBrackets": {
+                    "dependants": 3471,
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 49304
+                        },
+                        {
+                            "upperThreshold": 61630,
+                            "lowerThreshold": 49304,
+                            "rate": 10
+                        },
+                        {
+                            "lowerThreshold": 61630,
+                            "rate": 2
+                        }
+                    ]
+                },
+                "medicareBrackets": {
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "upperThreshold": 22398,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "rate": 10,
+                            "lowerThreshold": 22398,
+                            "upperThreshold": 27997
+                        },
+                        {
+                            "lowerThreshold": 27997,
+                            "rate": 2
+                        }
+                    ]
+                },
+                "medicareSeniorBrackets": {
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 35418
+                        },
+                        {
+                            "upperThreshold": 44272,
+                            "lowerThreshold": 35418,
+                            "rate": 10
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 44272
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "incomeTax": {
+                "noTaxFreeThreshold": [
+                    {
+                        "toIncome": 37000,
+                        "fromIncome": 0,
+                        "taxRate": 19,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 90000,
+                        "taxRate": 32.5,
+                        "fromIncome": 37001,
+                        "baseTaxAmount": 7030
+                    },
+                    {
+                        "toIncome": 180000,
+                        "taxRate": 37,
+                        "fromIncome": 90001,
+                        "baseTaxAmount": 24255
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 57555,
+                        "fromIncome": 180000
+                    }
+                ],
+                "nonResident": [
+                    {
+                        "toIncome": 90000,
+                        "taxRate": 32.5,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 90001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 29250
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 62550
+                    }
+                ],
+                "backpacker": [
+                    {
+                        "toIncome": 37000,
+                        "taxRate": 15,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 90000,
+                        "fromIncome": 37001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 5550
+                    },
+                    {
+                        "toIncome": 180000,
+                        "taxRate": 37,
+                        "fromIncome": 90001,
+                        "baseTaxAmount": 22775
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 56075
+                    }
+                ],
+                "australianResident": [
+                    {
+                        "toIncome": 18200,
+                        "fromIncome": 0,
+                        "taxRate": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 37000,
+                        "fromIncome": 18201,
+                        "taxRate": 19,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 90000,
+                        "fromIncome": 37001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 3572
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 90001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 20797
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 54097
+                    }
+                ]
+            },
+            "studentLoan": [
+                {
+                    "toIncome": 45881,
+                    "fromIncome": 0,
+                    "repaymentRate": 0
+                },
+                {
+                    "toIncome": 52973,
+                    "fromIncome": 45881,
+                    "repaymentRate": 1
+                },
+                {
+                    "toIncome": 56151,
+                    "fromIncome": 52974,
+                    "repaymentRate": 2
+                },
+                {
+                    "toIncome": 59521,
+                    "fromIncome": 56152,
+                    "repaymentRate": 2.5
+                },
+                {
+                    "toIncome": 63092,
+                    "repaymentRate": 3,
+                    "fromIncome": 59522
+                },
+                {
+                    "toIncome": 66877,
+                    "repaymentRate": 3.5,
+                    "fromIncome": 63093
+                },
+                {
+                    "toIncome": 70890,
+                    "fromIncome": 66878,
+                    "repaymentRate": 4
+                },
+                {
+                    "toIncome": 75144,
+                    "fromIncome": 70891,
+                    "repaymentRate": 4.5
+                },
+                {
+                    "toIncome": 79652,
+                    "fromIncome": 75145,
+                    "repaymentRate": 5
+                },
+                {
+                    "toIncome": 84432,
+                    "fromIncome": 79653,
+                    "repaymentRate": 5.5
+                },
+                {
+                    "toIncome": 89498,
+                    "fromIncome": 84433,
+                    "repaymentRate": 6
+                },
+                {
+                    "toIncome": 94868,
+                    "repaymentRate": 6.5,
+                    "fromIncome": 89499
+                },
+                {
+                    "toIncome": 100560,
+                    "fromIncome": 94869,
+                    "repaymentRate": 7
+                },
+                {
+                    "toIncome": 106593,
+                    "fromIncome": 100560,
+                    "repaymentRate": 7.5
+                },
+                {
+                    "toIncome": 112989,
+                    "repaymentRate": 8,
+                    "fromIncome": 106594
+                },
+                {
+                    "toIncome": 119769,
+                    "fromIncome": 112990,
+                    "repaymentRate": 8.5
+                },
+                {
+                    "toIncome": 126955,
+                    "repaymentRate": 9,
+                    "fromIncome": 119770
+                },
+                {
+                    "toIncome": 134572,
+                    "repaymentRate": 9.5,
+                    "fromIncome": 126956
+                },
+                {
+                    "repaymentRate": 10,
+                    "fromIncome": 134573
+                }
+            ],
+            "financialYear": "fy2020",
+            "seniorAndPensionerTaxOffset": {
+                "illness": [
+                    {
+                        "toIncome": 31279,
+                        "value": 2040,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 47599,
+                        "value": 2040,
+                        "fromIncome": 31279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 47599,
+                        "deduction": 0
+                    }
+                ],
+                "single": [
+                    {
+                        "toIncome": 32279,
+                        "value": 2230,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 50119,
+                        "value": 2230,
+                        "fromIncome": 32279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "deduction": 0,
+                        "fromIncome": 50119
+                    }
+                ],
+                "married": [
+                    {
+                        "toIncome": 28974,
+                        "value": 1602,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 41790,
+                        "value": 1602,
+                        "fromIncome": 28974,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 41790,
+                        "deduction": 0
+                    }
+                ]
+            },
+            "superannuation": {
+                "maxContributionPerQuarter": 55270,
+                "nonConcessionalExcessTax": 0.47,
+                "concessionalCap": 25000,
+                "superGuarantee": 9.5,
+                "nonConcesssionalCap": 100000,
+                "concessionalTax": 0.15
+            },
+            "lowIncomeTaxOffset": [
+                {
+                    "toIncome": 37000,
+                    "value": 445,
+                    "fromIncome": 0,
+                    "deduction": 0
+                },
+                {
+                    "toIncome": 66667,
+                    "value": 445,
+                    "fromIncome": 37000,
+                    "deduction": 0.015
+                },
+                {
+                    "value": 0,
+                    "deduction": 0,
+                    "fromIncome": 66667
+                }
+            ],
+            "medicareLevySurchage": {
+                "singleMedicareLevySurcharge": [
+                    {
+                        "toIncome": 90000,
+                        "fromIncome": 0,
+                        "surchargeRate": 0
+                    },
+                    {
+                        "toIncome": 105000,
+                        "surchargeRate": 1,
+                        "fromIncome": 90001
+                    },
+                    {
+                        "toIncome": 140000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 105001
+                    },
+                    {
+                        "surchargeRate": 1.5,
+                        "fromIncome": 140001
+                    }
+                ],
+                "familyMedicareLevySurcharge": [
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 0,
+                        "surchargeRate": 0
+                    },
+                    {
+                        "toIncome": 210000,
+                        "fromIncome": 180001,
+                        "surchargeRate": 1
+                    },
+                    {
+                        "toIncome": 280000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 210001
+                    },
+                    {
+                        "fromIncome": 280001,
+                        "surchargeRate": 1.5
+                    }
+                ]
+            },
+            "medicareLevy": {
+                "medicareFamilyBrackets": {
+                    "dependants": 3533,
+                    "brackets": [
+                        {
+                            "upperThreshold": 38474,
+                            "rate": 0,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "upperThreshold": 48093,
+                            "rate": 10,
+                            "lowerThreshold": 38474
+                        },
+                        {
+                            "lowerThreshold": 48093,
+                            "rate": 2
+                        }
+                    ]
+                },
+                "medicareSeniorFamilyBrackets": {
+                    "dependants": 3533,
+                    "brackets": [
+                        {
+                            "upperThreshold": 50191,
+                            "rate": 0,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "lowerThreshold": 50191,
+                            "rate": 10,
+                            "upperThreshold": 62739
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 62739
+                        }
+                    ]
+                },
+                "medicareBrackets": {
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 22801
+                        },
+                        {
+                            "upperThreshold": 28501,
+                            "rate": 10,
+                            "lowerThreshold": 22801
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 28501
+                        }
+                    ]
+                },
+                "medicareSeniorBrackets": {
+                    "brackets": [
+                        {
+                            "lowerThreshold": 0,
+                            "upperThreshold": 36056,
+                            "rate": 0
+                        },
+                        {
+                            "upperThreshold": 45069,
+                            "rate": 10,
+                            "lowerThreshold": 36056
+                        },
+                        {
+                            "lowerThreshold": 45069,
+                            "rate": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "incomeTax": {
+                "noTaxFreeThreshold": [
+                    {
+                        "toIncome": 45000,
+                        "fromIncome": 0,
+                        "taxRate": 19,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "taxRate": 32.5,
+                        "fromIncome": 45001,
+                        "baseTaxAmount": 8550
+                    },
+                    {
+                        "toIncome": 180000,
+                        "taxRate": 37,
+                        "fromIncome": 120001,
+                        "baseTaxAmount": 32925
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 55125
+                    }
+                ],
+                "nonResident": [
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 0,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 39000
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 61200,
+                        "fromIncome": 180000
+                    }
+                ],
+                "backpacker": [
+                    {
+                        "toIncome": 45000,
+                        "fromIncome": 0,
+                        "taxRate": 15,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 45001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 6750
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 31125
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 53325
+                    }
+                ],
+                "australianResident": [
+                    {
+                        "toIncome": 18200,
+                        "taxRate": 0,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 45000,
+                        "fromIncome": 18201,
+                        "taxRate": 19,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "taxRate": 32.5,
+                        "fromIncome": 45001,
+                        "baseTaxAmount": 5092
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 29467
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 51667
+                    }
+                ]
+            },
+            "studentLoan": [
+                {
+                    "toIncome": 46620,
+                    "fromIncome": 0,
+                    "repaymentRate": 0
+                },
+                {
+                    "toIncome": 53826,
+                    "fromIncome": 46620,
+                    "repaymentRate": 1
+                },
+                {
+                    "toIncome": 57055,
+                    "repaymentRate": 2,
+                    "fromIncome": 53827
+                },
+                {
+                    "toIncome": 60479,
+                    "repaymentRate": 2.5,
+                    "fromIncome": 57056
+                },
+                {
+                    "toIncome": 64108,
+                    "fromIncome": 60480,
+                    "repaymentRate": 3
+                },
+                {
+                    "toIncome": 67954,
+                    "fromIncome": 64109,
+                    "repaymentRate": 3.5
+                },
+                {
+                    "toIncome": 72031,
+                    "repaymentRate": 4,
+                    "fromIncome": 67955
+                },
+                {
+                    "toIncome": 76354,
+                    "fromIncome": 72032,
+                    "repaymentRate": 4.5
+                },
+                {
+                    "toIncome": 80935,
+                    "fromIncome": 76355,
+                    "repaymentRate": 5
+                },
+                {
+                    "toIncome": 85792,
+                    "repaymentRate": 5.5,
+                    "fromIncome": 80936
+                },
+                {
+                    "toIncome": 90939,
+                    "fromIncome": 85793,
+                    "repaymentRate": 6
+                },
+                {
+                    "toIncome": 96396,
+                    "repaymentRate": 6.5,
+                    "fromIncome": 90940
+                },
+                {
+                    "toIncome": 102179,
+                    "fromIncome": 96397,
+                    "repaymentRate": 7
+                },
+                {
+                    "toIncome": 108309,
+                    "repaymentRate": 7.5,
+                    "fromIncome": 102180
+                },
+                {
+                    "toIncome": 114809,
+                    "repaymentRate": 8,
+                    "fromIncome": 108310
+                },
+                {
+                    "toIncome": 121698,
+                    "repaymentRate": 8.5,
+                    "fromIncome": 114810
+                },
+                {
+                    "toIncome": 128999,
+                    "fromIncome": 121699,
+                    "repaymentRate": 9
+                },
+                {
+                    "toIncome": 136739,
+                    "fromIncome": 129000,
+                    "repaymentRate": 9.5
+                },
+                {
+                    "repaymentRate": 10,
+                    "fromIncome": 136740
+                }
+            ],
+            "seniorAndPensionerTaxOffset": {
+                "illness": [
+                    {
+                        "toIncome": 31279,
+                        "value": 2040,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 47599,
+                        "value": 2040,
+                        "fromIncome": 31279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "deduction": 0,
+                        "fromIncome": 47599
+                    }
+                ],
+                "single": [
+                    {
+                        "toIncome": 32279,
+                        "value": 2230,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 50119,
+                        "value": 2230,
+                        "fromIncome": 32279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 50119,
+                        "deduction": 0
+                    }
+                ],
+                "married": [
+                    {
+                        "toIncome": 28974,
+                        "value": 1602,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 41790,
+                        "value": 1602,
+                        "fromIncome": 28974,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 41790,
+                        "deduction": 0
+                    }
+                ]
+            },
+            "financialYear": "fy2021",
+            "superannuation": {
+                "nonConcessionalExcessTax": 0.47,
+                "concessionalCap": 25000,
+                "maxContributionPerQuarter": 57090,
+                "superGuarantee": 9.5,
+                "nonConcesssionalCap": 100000,
+                "concessionalTax": 0.15
+            },
+            "lowIncomeTaxOffset": [
+                {
+                    "toIncome": 37500,
+                    "value": 700,
+                    "fromIncome": 0,
+                    "deduction": 0
+                },
+                {
+                    "toIncome": 45000,
+                    "value": 700,
+                    "fromIncome": 37500,
+                    "deduction": 0.05
+                },
+                {
+                    "toIncome": 66667,
+                    "value": 325,
+                    "fromIncome": 45000,
+                    "deduction": 0.015
+                },
+                {
+                    "value": 0,
+                    "deduction": 0,
+                    "fromIncome": 66667
+                }
+            ],
+            "medicareLevySurchage": {
+                "singleMedicareLevySurcharge": [
+                    {
+                        "toIncome": 90000,
+                        "fromIncome": 0,
+                        "surchargeRate": 0
+                    },
+                    {
+                        "toIncome": 105000,
+                        "fromIncome": 90001,
+                        "surchargeRate": 1
+                    },
+                    {
+                        "toIncome": 140000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 105001
+                    },
+                    {
+                        "fromIncome": 140001,
+                        "surchargeRate": 1.5
+                    }
+                ],
+                "familyMedicareLevySurcharge": [
+                    {
+                        "toIncome": 180000,
+                        "surchargeRate": 0,
+                        "fromIncome": 0
+                    },
+                    {
+                        "toIncome": 210000,
+                        "fromIncome": 180001,
+                        "surchargeRate": 1
+                    },
+                    {
+                        "toIncome": 280000,
+                        "fromIncome": 210001,
+                        "surchargeRate": 1.25
+                    },
+                    {
+                        "fromIncome": 280001,
+                        "surchargeRate": 1.5
+                    }
+                ]
+            },
+            "medicareLevy": {
+                "medicareFamilyBrackets": {
+                    "dependants": 3597,
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 39167
+                        },
+                        {
+                            "lowerThreshold": 39167,
+                            "upperThreshold": 48959,
+                            "rate": 10
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 48959
+                        }
+                    ]
+                },
+                "medicareSeniorFamilyBrackets": {
+                    "dependants": 3597,
+                    "brackets": [
+                        {
+                            "upperThreshold": 51094,
+                            "lowerThreshold": 0,
+                            "rate": 0
+                        },
+                        {
+                            "lowerThreshold": 51094,
+                            "rate": 10,
+                            "upperThreshold": 63868
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 63868
+                        }
+                    ]
+                },
+                "medicareBrackets": {
+                    "brackets": [
+                        {
+                            "upperThreshold": 23226,
+                            "rate": 0,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "upperThreshold": 29032,
+                            "rate": 10,
+                            "lowerThreshold": 23226
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 29032
+                        }
+                    ]
+                },
+                "medicareSeniorBrackets": {
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "upperThreshold": 36705,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "rate": 10,
+                            "upperThreshold": 45881,
+                            "lowerThreshold": 36705
+                        },
+                        {
+                            "lowerThreshold": 45881,
+                            "rate": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "incomeTax": {
+                "nonResident": [
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 0,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 39000
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 61200,
+                        "fromIncome": 180000
+                    }
+                ],
+                "noTaxFreeThreshold": [
+                    {
+                        "toIncome": 45000,
+                        "taxRate": 19,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "taxRate": 32.5,
+                        "fromIncome": 45001,
+                        "baseTaxAmount": 8550
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 32925
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 55125
+                    }
+                ],
+                "australianResident": [
+                    {
+                        "toIncome": 18200,
+                        "fromIncome": 0,
+                        "taxRate": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 45000,
+                        "fromIncome": 18201,
+                        "taxRate": 19,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 45001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 5092
+                    },
+                    {
+                        "toIncome": 180000,
+                        "taxRate": 37,
+                        "fromIncome": 120001,
+                        "baseTaxAmount": 29467
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 51667
+                    }
+                ],
+                "backpacker": [
+                    {
+                        "toIncome": 45000,
+                        "fromIncome": 0,
+                        "taxRate": 15,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "taxRate": 32.5,
+                        "fromIncome": 45001,
+                        "baseTaxAmount": 6750
+                    },
+                    {
+                        "toIncome": 180000,
+                        "taxRate": 37,
+                        "fromIncome": 120001,
+                        "baseTaxAmount": 31125
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 53325
+                    }
+                ]
+            },
+            "studentLoan": [
+                {
+                    "toIncome": 47014,
+                    "repaymentRate": 0,
+                    "fromIncome": 0
+                },
+                {
+                    "toIncome": 54282,
+                    "fromIncome": 47014,
+                    "repaymentRate": 1
+                },
+                {
+                    "toIncome": 57538,
+                    "fromIncome": 54283,
+                    "repaymentRate": 2
+                },
+                {
+                    "toIncome": 60991,
+                    "repaymentRate": 2.5,
+                    "fromIncome": 57539
+                },
+                {
+                    "toIncome": 64651,
+                    "repaymentRate": 3,
+                    "fromIncome": 60992
+                },
+                {
+                    "toIncome": 68529,
+                    "repaymentRate": 3.5,
+                    "fromIncome": 64652
+                },
+                {
+                    "toIncome": 72641,
+                    "fromIncome": 68530,
+                    "repaymentRate": 4
+                },
+                {
+                    "toIncome": 77001,
+                    "repaymentRate": 4.5,
+                    "fromIncome": 72642
+                },
+                {
+                    "toIncome": 81620,
+                    "fromIncome": 77002,
+                    "repaymentRate": 5
+                },
+                {
+                    "toIncome": 86518,
+                    "fromIncome": 81621,
+                    "repaymentRate": 5.5
+                },
+                {
+                    "toIncome": 91709,
+                    "repaymentRate": 6,
+                    "fromIncome": 86519
+                },
+                {
+                    "toIncome": 97212,
+                    "fromIncome": 91710,
+                    "repaymentRate": 6.5
+                },
+                {
+                    "toIncome": 103045,
+                    "fromIncome": 97213,
+                    "repaymentRate": 7
+                },
+                {
+                    "toIncome": 109227,
+                    "repaymentRate": 7.5,
+                    "fromIncome": 103046
+                },
+                {
+                    "toIncome": 115781,
+                    "fromIncome": 109228,
+                    "repaymentRate": 8
+                },
+                {
+                    "toIncome": 122728,
+                    "fromIncome": 115782,
+                    "repaymentRate": 8.5
+                },
+                {
+                    "toIncome": 130092,
+                    "repaymentRate": 9,
+                    "fromIncome": 122729
+                },
+                {
+                    "toIncome": 137897,
+                    "fromIncome": 130093,
+                    "repaymentRate": 9.5
+                },
+                {
+                    "fromIncome": 137898,
+                    "repaymentRate": 10
+                }
+            ],
+            "seniorAndPensionerTaxOffset": {
+                "single": [
+                    {
+                        "toIncome": 32279,
+                        "value": 2230,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 50119,
+                        "value": 2230,
+                        "fromIncome": 32279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 50119,
+                        "deduction": 0
+                    }
+                ],
+                "illness": [
+                    {
+                        "toIncome": 31279,
+                        "value": 2040,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 47599,
+                        "value": 2040,
+                        "fromIncome": 31279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 47599,
+                        "deduction": 0
+                    }
+                ],
+                "married": [
+                    {
+                        "toIncome": 28974,
+                        "value": 1602,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 41790,
+                        "value": 1602,
+                        "fromIncome": 28974,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "deduction": 0,
+                        "fromIncome": 41790
+                    }
+                ]
+            },
+            "financialYear": "fy2022",
+            "superannuation": {
+                "nonConcessionalExcessTax": 0.47,
+                "concessionalCap": 27500,
+                "maxContributionPerQuarter": 58920,
+                "superGuarantee": 10,
+                "nonConcesssionalCap": 110000,
+                "concessionalTax": 0.15
+            },
+            "lowIncomeTaxOffset": [
+                {
+                    "toIncome": 37500,
+                    "value": 700,
+                    "fromIncome": 0,
+                    "deduction": 0
+                },
+                {
+                    "toIncome": 45000,
+                    "value": 700,
+                    "fromIncome": 37500,
+                    "deduction": 0.05
+                },
+                {
+                    "toIncome": 66667,
+                    "value": 325,
+                    "fromIncome": 45000,
+                    "deduction": 0.015
+                },
+                {
+                    "value": 0,
+                    "fromIncome": 66667,
+                    "deduction": 0
+                }
+            ],
+            "medicareLevySurchage": {
+                "familyMedicareLevySurcharge": [
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 0,
+                        "surchargeRate": 0
+                    },
+                    {
+                        "toIncome": 210000,
+                        "surchargeRate": 1,
+                        "fromIncome": 180001
+                    },
+                    {
+                        "toIncome": 280000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 210001
+                    },
+                    {
+                        "surchargeRate": 1.5,
+                        "fromIncome": 280001
+                    }
+                ],
+                "singleMedicareLevySurcharge": [
+                    {
+                        "toIncome": 90000,
+                        "fromIncome": 0,
+                        "surchargeRate": 0
+                    },
+                    {
+                        "toIncome": 105000,
+                        "surchargeRate": 1,
+                        "fromIncome": 90001
+                    },
+                    {
+                        "toIncome": 140000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 105001
+                    },
+                    {
+                        "fromIncome": 140001,
+                        "surchargeRate": 1.5
+                    }
+                ]
+            },
+            "medicareLevy": {
+                "medicareFamilyBrackets": {
+                    "dependants": 3619,
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "upperThreshold": 39402,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "rate": 10,
+                            "lowerThreshold": 39402,
+                            "upperThreshold": 49253
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 49253
+                        }
+                    ]
+                },
+                "medicareSeniorFamilyBrackets": {
+                    "dependants": 3619,
+                    "brackets": [
+                        {
+                            "upperThreshold": 51401,
+                            "rate": 0,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "lowerThreshold": 51401,
+                            "upperThreshold": 64251,
+                            "rate": 10
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 64251
+                        }
+                    ]
+                },
+                "medicareSeniorBrackets": {
+                    "brackets": [
+                        {
+                            "lowerThreshold": 0,
+                            "upperThreshold": 36925,
+                            "rate": 0
+                        },
+                        {
+                            "rate": 10,
+                            "lowerThreshold": 36925,
+                            "upperThreshold": 46156
+                        },
+                        {
+                            "lowerThreshold": 46156,
+                            "rate": 2
+                        }
+                    ]
+                },
+                "medicareBrackets": {
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 23365
+                        },
+                        {
+                            "lowerThreshold": 23365,
+                            "rate": 10,
+                            "upperThreshold": 29206
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 29206
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "incomeTax": {
+                "noTaxFreeThreshold": [
+                    {
+                        "toIncome": 45000,
+                        "taxRate": 19,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 45001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 8550
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 32925
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 55125,
+                        "fromIncome": 180000
+                    }
+                ],
+                "nonResident": [
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 0,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 180000,
+                        "taxRate": 37,
+                        "fromIncome": 120001,
+                        "baseTaxAmount": 39000
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 61200,
+                        "fromIncome": 180000
+                    }
+                ],
+                "australianResident": [
+                    {
+                        "toIncome": 18200,
+                        "taxRate": 0,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 45000,
+                        "fromIncome": 18201,
+                        "taxRate": 19,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 45001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 5092
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 29467
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 51667,
+                        "fromIncome": 180000
+                    }
+                ],
+                "backpacker": [
+                    {
+                        "toIncome": 45000,
+                        "fromIncome": 0,
+                        "taxRate": 15,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "taxRate": 32.5,
+                        "fromIncome": 45001,
+                        "baseTaxAmount": 6750
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 31125
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 53325
+                    }
+                ]
+            },
+            "studentLoan": [
+                {
+                    "toIncome": 48361,
+                    "fromIncome": 0,
+                    "repaymentRate": 0
+                },
+                {
+                    "toIncome": 55836,
+                    "repaymentRate": 1,
+                    "fromIncome": 48361
+                },
+                {
+                    "toIncome": 59186,
+                    "fromIncome": 55837,
+                    "repaymentRate": 2
+                },
+                {
+                    "toIncome": 62738,
+                    "repaymentRate": 2.5,
+                    "fromIncome": 59187
+                },
+                {
+                    "toIncome": 66502,
+                    "fromIncome": 62739,
+                    "repaymentRate": 3
+                },
+                {
+                    "toIncome": 70492,
+                    "fromIncome": 66503,
+                    "repaymentRate": 3.5
+                },
+                {
+                    "toIncome": 74722,
+                    "fromIncome": 70493,
+                    "repaymentRate": 4
+                },
+                {
+                    "toIncome": 79206,
+                    "repaymentRate": 4.5,
+                    "fromIncome": 74723
+                },
+                {
+                    "toIncome": 83958,
+                    "fromIncome": 79207,
+                    "repaymentRate": 5
+                },
+                {
+                    "toIncome": 88996,
+                    "repaymentRate": 5.5,
+                    "fromIncome": 83959
+                },
+                {
+                    "toIncome": 94336,
+                    "repaymentRate": 6,
+                    "fromIncome": 88997
+                },
+                {
+                    "toIncome": 99996,
+                    "repaymentRate": 6.5,
+                    "fromIncome": 94337
+                },
+                {
+                    "toIncome": 105996,
+                    "repaymentRate": 7,
+                    "fromIncome": 99997
+                },
+                {
+                    "toIncome": 112355,
+                    "repaymentRate": 7.5,
+                    "fromIncome": 105997
+                },
+                {
+                    "toIncome": 119097,
+                    "repaymentRate": 8,
+                    "fromIncome": 112356
+                },
+                {
+                    "toIncome": 126243,
+                    "repaymentRate": 8.5,
+                    "fromIncome": 119098
+                },
+                {
+                    "toIncome": 133818,
+                    "fromIncome": 126244,
+                    "repaymentRate": 9
+                },
+                {
+                    "toIncome": 141847,
+                    "fromIncome": 133819,
+                    "repaymentRate": 9.5
+                },
+                {
+                    "fromIncome": 141848,
+                    "repaymentRate": 10
+                }
+            ],
+            "financialYear": "fy2023",
+            "seniorAndPensionerTaxOffset": {
+                "single": [
+                    {
+                        "toIncome": 32279,
+                        "value": 2230,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 50119,
+                        "value": 2230,
+                        "fromIncome": 32279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "deduction": 0,
+                        "fromIncome": 50119
+                    }
+                ],
+                "illness": [
+                    {
+                        "toIncome": 31279,
+                        "value": 2040,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 47599,
+                        "value": 2040,
+                        "fromIncome": 31279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "deduction": 0,
+                        "fromIncome": 47599
+                    }
+                ],
+                "married": [
+                    {
+                        "toIncome": 28974,
+                        "value": 1602,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 41790,
+                        "value": 1602,
+                        "fromIncome": 28974,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 41790,
+                        "deduction": 0
+                    }
+                ]
+            },
+            "superannuation": {
+                "maxContributionPerQuarter": 60220,
+                "concessionalCap": 27500,
+                "nonConcessionalExcessTax": 0.47,
+                "superGuarantee": 10.5,
+                "nonConcesssionalCap": 110000,
+                "concessionalTax": 0.15
+            },
+            "lowIncomeTaxOffset": [
+                {
+                    "toIncome": 37500,
+                    "value": 700,
+                    "fromIncome": 0,
+                    "deduction": 0
+                },
+                {
+                    "toIncome": 45000,
+                    "value": 700,
+                    "fromIncome": 37500,
+                    "deduction": 0.05
+                },
+                {
+                    "toIncome": 66667,
+                    "value": 325,
+                    "fromIncome": 45000,
+                    "deduction": 0.015
+                },
+                {
+                    "value": 0,
+                    "fromIncome": 66667,
+                    "deduction": 0
+                }
+            ],
+            "medicareLevySurchage": {
+                "singleMedicareLevySurcharge": [
+                    {
+                        "toIncome": 90000,
+                        "surchargeRate": 0,
+                        "fromIncome": 0
+                    },
+                    {
+                        "toIncome": 105000,
+                        "surchargeRate": 1,
+                        "fromIncome": 90001
+                    },
+                    {
+                        "toIncome": 140000,
+                        "fromIncome": 105001,
+                        "surchargeRate": 1.25
+                    },
+                    {
+                        "fromIncome": 140001,
+                        "surchargeRate": 1.5
+                    }
+                ],
+                "familyMedicareLevySurcharge": [
+                    {
+                        "toIncome": 180000,
+                        "surchargeRate": 0,
+                        "fromIncome": 0
+                    },
+                    {
+                        "toIncome": 210000,
+                        "fromIncome": 180001,
+                        "surchargeRate": 1
+                    },
+                    {
+                        "toIncome": 280000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 210001
+                    },
+                    {
+                        "surchargeRate": 1.5,
+                        "fromIncome": 280001
+                    }
+                ]
+            },
+            "medicareLevy": {
+                "medicareFamilyBrackets": {
+                    "dependants": 3760,
+                    "brackets": [
+                        {
+                            "lowerThreshold": 0,
+                            "upperThreshold": 40939,
+                            "rate": 0
+                        },
+                        {
+                            "upperThreshold": 51174,
+                            "rate": 10,
+                            "lowerThreshold": 40939
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 51174
+                        }
+                    ]
+                },
+                "medicareSeniorFamilyBrackets": {
+                    "dependants": 3760,
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 53406
+                        },
+                        {
+                            "lowerThreshold": 53406,
+                            "rate": 10,
+                            "upperThreshold": 66758
+                        },
+                        {
+                            "lowerThreshold": 66758,
+                            "rate": 2
+                        }
+                    ]
+                },
+                "medicareSeniorBrackets": {
+                    "brackets": [
+                        {
+                            "upperThreshold": 38365,
+                            "rate": 0,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "upperThreshold": 47956,
+                            "lowerThreshold": 38365,
+                            "rate": 10
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 47956
+                        }
+                    ]
+                },
+                "medicareBrackets": {
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 24276
+                        },
+                        {
+                            "rate": 10,
+                            "lowerThreshold": 24276,
+                            "upperThreshold": 30345
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 30345
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "incomeTax": {
+                "nonResident": [
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 0,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 180000,
+                        "taxRate": 37,
+                        "fromIncome": 120001,
+                        "baseTaxAmount": 39000
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 61200
+                    }
+                ],
+                "noTaxFreeThreshold": [
+                    {
+                        "toIncome": 45000,
+                        "taxRate": 19,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 45001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 8550
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 32925
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 55125,
+                        "fromIncome": 180000
+                    }
+                ],
+                "australianResident": [
+                    {
+                        "toIncome": 18200,
+                        "taxRate": 0,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 45000,
+                        "taxRate": 19,
+                        "fromIncome": 18201,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 45001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 5092
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 29467
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 51667,
+                        "fromIncome": 180000
+                    }
+                ],
+                "backpacker": [
+                    {
+                        "toIncome": 45000,
+                        "fromIncome": 0,
+                        "taxRate": 15,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 120000,
+                        "fromIncome": 45001,
+                        "taxRate": 32.5,
+                        "baseTaxAmount": 6750
+                    },
+                    {
+                        "toIncome": 180000,
+                        "fromIncome": 120001,
+                        "taxRate": 37,
+                        "baseTaxAmount": 31125
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 180000,
+                        "baseTaxAmount": 53325
+                    }
+                ]
+            },
+            "studentLoan": [
+                {
+                    "toIncome": 51550,
+                    "repaymentRate": 0,
+                    "fromIncome": 0
+                },
+                {
+                    "toIncome": 59518,
+                    "repaymentRate": 1,
+                    "fromIncome": 51550
+                },
+                {
+                    "toIncome": 63089,
+                    "fromIncome": 59519,
+                    "repaymentRate": 2
+                },
+                {
+                    "toIncome": 66875,
+                    "repaymentRate": 2.5,
+                    "fromIncome": 63090
+                },
+                {
+                    "toIncome": 70888,
+                    "fromIncome": 66876,
+                    "repaymentRate": 3
+                },
+                {
+                    "toIncome": 75140,
+                    "fromIncome": 70889,
+                    "repaymentRate": 3.5
+                },
+                {
+                    "toIncome": 79649,
+                    "repaymentRate": 4,
+                    "fromIncome": 75141
+                },
+                {
+                    "toIncome": 84429,
+                    "fromIncome": 79650,
+                    "repaymentRate": 4.5
+                },
+                {
+                    "toIncome": 89494,
+                    "fromIncome": 84430,
+                    "repaymentRate": 5
+                },
+                {
+                    "toIncome": 94865,
+                    "fromIncome": 89495,
+                    "repaymentRate": 5.5
+                },
+                {
+                    "toIncome": 100557,
+                    "fromIncome": 94866,
+                    "repaymentRate": 6
+                },
+                {
+                    "toIncome": 106590,
+                    "fromIncome": 100558,
+                    "repaymentRate": 6.5
+                },
+                {
+                    "toIncome": 112985,
+                    "repaymentRate": 7,
+                    "fromIncome": 106591
+                },
+                {
+                    "toIncome": 119764,
+                    "fromIncome": 112986,
+                    "repaymentRate": 7.5
+                },
+                {
+                    "toIncome": 126950,
+                    "repaymentRate": 8,
+                    "fromIncome": 119765
+                },
+                {
+                    "toIncome": 134568,
+                    "fromIncome": 126951,
+                    "repaymentRate": 8.5
+                },
+                {
+                    "toIncome": 142643,
+                    "fromIncome": 134569,
+                    "repaymentRate": 9
+                },
+                {
+                    "toIncome": 151200,
+                    "fromIncome": 142643,
+                    "repaymentRate": 9.5
+                },
+                {
+                    "fromIncome": 151201,
+                    "repaymentRate": 10
+                }
+            ],
+            "financialYear": "fy2024",
+            "seniorAndPensionerTaxOffset": {
+                "illness": [
+                    {
+                        "toIncome": 31279,
+                        "value": 2040,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 47599,
+                        "value": 2040,
+                        "fromIncome": 31279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 47599,
+                        "deduction": 0
+                    }
+                ],
+                "single": [
+                    {
+                        "toIncome": 32279,
+                        "value": 2230,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 50119,
+                        "value": 2230,
+                        "fromIncome": 32279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 50119,
+                        "deduction": 0
+                    }
+                ],
+                "married": [
+                    {
+                        "toIncome": 28974,
+                        "value": 1602,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 41790,
+                        "value": 1602,
+                        "fromIncome": 28974,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 41790,
+                        "deduction": 0
+                    }
+                ]
+            },
+            "superannuation": {
+                "nonConcessionalExcessTax": 0.47,
+                "concessionalCap": 27500,
+                "maxContributionPerQuarter": 62270,
+                "superGuarantee": 11,
+                "nonConcesssionalCap": 110000,
+                "concessionalTax": 0.15
+            },
+            "lowIncomeTaxOffset": [
+                {
+                    "toIncome": 37500,
+                    "value": 700,
+                    "fromIncome": 0,
+                    "deduction": 0
+                },
+                {
+                    "toIncome": 45000,
+                    "value": 700,
+                    "fromIncome": 37500,
+                    "deduction": 0.05
+                },
+                {
+                    "toIncome": 66667,
+                    "value": 325,
+                    "fromIncome": 45000,
+                    "deduction": 0.015
+                },
+                {
+                    "value": 0,
+                    "fromIncome": 66667,
+                    "deduction": 0
+                }
+            ],
+            "medicareLevySurchage": {
+                "singleMedicareLevySurcharge": [
+                    {
+                        "toIncome": 93000,
+                        "surchargeRate": 0,
+                        "fromIncome": 0
+                    },
+                    {
+                        "toIncome": 108000,
+                        "fromIncome": 93001,
+                        "surchargeRate": 1
+                    },
+                    {
+                        "toIncome": 144000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 108001
+                    },
+                    {
+                        "surchargeRate": 1.5,
+                        "fromIncome": 144001
+                    }
+                ],
+                "familyMedicareLevySurcharge": [
+                    {
+                        "toIncome": 186000,
+                        "surchargeRate": 0,
+                        "fromIncome": 0
+                    },
+                    {
+                        "toIncome": 216000,
+                        "fromIncome": 186001,
+                        "surchargeRate": 1
+                    },
+                    {
+                        "toIncome": 288000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 216001
+                    },
+                    {
+                        "fromIncome": 288001,
+                        "surchargeRate": 1.5
+                    }
+                ]
+            },
+            "medicareLevy": {
+                "medicareFamilyBrackets": {
+                    "dependants": 3760,
+                    "brackets": [
+                        {
+                            "upperThreshold": 40939,
+                            "rate": 0,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "lowerThreshold": 40939,
+                            "rate": 10,
+                            "upperThreshold": 51174
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 51174
+                        }
+                    ]
+                },
+                "medicareSeniorFamilyBrackets": {
+                    "dependants": 3760,
+                    "brackets": [
+                        {
+                            "lowerThreshold": 0,
+                            "upperThreshold": 53406,
+                            "rate": 0
+                        },
+                        {
+                            "upperThreshold": 66758,
+                            "rate": 10,
+                            "lowerThreshold": 53406
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 66758
+                        }
+                    ]
+                },
+                "medicareSeniorBrackets": {
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "upperThreshold": 38365,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "lowerThreshold": 38365,
+                            "rate": 10,
+                            "upperThreshold": 47956
+                        },
+                        {
+                            "lowerThreshold": 47956,
+                            "rate": 2
+                        }
+                    ]
+                },
+                "medicareBrackets": {
+                    "brackets": [
+                        {
+                            "lowerThreshold": 0,
+                            "rate": 0,
+                            "upperThreshold": 24276
+                        },
+                        {
+                            "upperThreshold": 30345,
+                            "lowerThreshold": 24276,
+                            "rate": 10
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 30345
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "incomeTax": {
+                "noTaxFreeThreshold": [
+                    {
+                        "toIncome": 45000,
+                        "taxRate": 19,
+                        "fromIncome": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 200000,
+                        "fromIncome": 45001,
+                        "taxRate": 30,
+                        "baseTaxAmount": 8550
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 55050,
+                        "fromIncome": 200000
+                    }
+                ],
+                "nonResident": [
+                    {
+                        "toIncome": 200000,
+                        "fromIncome": 0,
+                        "taxRate": 30,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 200000,
+                        "baseTaxAmount": 60000
+                    }
+                ],
+                "australianResident": [
+                    {
+                        "toIncome": 18200,
+                        "fromIncome": 0,
+                        "taxRate": 0,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 45000,
+                        "fromIncome": 18201,
+                        "taxRate": 19,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 200000,
+                        "taxRate": 30,
+                        "fromIncome": 45001,
+                        "baseTaxAmount": 5092
+                    },
+                    {
+                        "taxRate": 45,
+                        "fromIncome": 200000,
+                        "baseTaxAmount": 51592
+                    }
+                ],
+                "backpacker": [
+                    {
+                        "toIncome": 45000,
+                        "fromIncome": 0,
+                        "taxRate": 15,
+                        "baseTaxAmount": 0
+                    },
+                    {
+                        "toIncome": 200000,
+                        "taxRate": 30,
+                        "fromIncome": 45001,
+                        "baseTaxAmount": 6750
+                    },
+                    {
+                        "taxRate": 45,
+                        "baseTaxAmount": 53250,
+                        "fromIncome": 200000
+                    }
+                ]
+            },
+            "studentLoan": [
+                {
+                    "toIncome": 51550,
+                    "fromIncome": 0,
+                    "repaymentRate": 0
+                },
+                {
+                    "toIncome": 59518,
+                    "fromIncome": 51550,
+                    "repaymentRate": 1
+                },
+                {
+                    "toIncome": 63089,
+                    "fromIncome": 59519,
+                    "repaymentRate": 2
+                },
+                {
+                    "toIncome": 66875,
+                    "repaymentRate": 2.5,
+                    "fromIncome": 63090
+                },
+                {
+                    "toIncome": 70888,
+                    "repaymentRate": 3,
+                    "fromIncome": 66876
+                },
+                {
+                    "toIncome": 75140,
+                    "repaymentRate": 3.5,
+                    "fromIncome": 70889
+                },
+                {
+                    "toIncome": 79649,
+                    "repaymentRate": 4,
+                    "fromIncome": 75141
+                },
+                {
+                    "toIncome": 84429,
+                    "fromIncome": 79650,
+                    "repaymentRate": 4.5
+                },
+                {
+                    "toIncome": 89494,
+                    "repaymentRate": 5,
+                    "fromIncome": 84430
+                },
+                {
+                    "toIncome": 94865,
+                    "repaymentRate": 5.5,
+                    "fromIncome": 89495
+                },
+                {
+                    "toIncome": 100557,
+                    "repaymentRate": 6,
+                    "fromIncome": 94866
+                },
+                {
+                    "toIncome": 106590,
+                    "fromIncome": 100558,
+                    "repaymentRate": 6.5
+                },
+                {
+                    "toIncome": 112985,
+                    "repaymentRate": 7,
+                    "fromIncome": 106591
+                },
+                {
+                    "toIncome": 119764,
+                    "fromIncome": 112986,
+                    "repaymentRate": 7.5
+                },
+                {
+                    "toIncome": 126950,
+                    "repaymentRate": 8,
+                    "fromIncome": 119765
+                },
+                {
+                    "toIncome": 134568,
+                    "fromIncome": 126951,
+                    "repaymentRate": 8.5
+                },
+                {
+                    "toIncome": 142643,
+                    "fromIncome": 134569,
+                    "repaymentRate": 9
+                },
+                {
+                    "toIncome": 151200,
+                    "fromIncome": 142643,
+                    "repaymentRate": 9.5
+                },
+                {
+                    "repaymentRate": 10,
+                    "fromIncome": 151201
+                }
+            ],
+            "seniorAndPensionerTaxOffset": {
+                "illness": [
+                    {
+                        "toIncome": 31279,
+                        "value": 2040,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 47599,
+                        "value": 2040,
+                        "fromIncome": 31279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "deduction": 0,
+                        "fromIncome": 47599
+                    }
+                ],
+                "single": [
+                    {
+                        "toIncome": 32279,
+                        "value": 2230,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 50119,
+                        "value": 2230,
+                        "fromIncome": 32279,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 50119,
+                        "deduction": 0
+                    }
+                ],
+                "married": [
+                    {
+                        "toIncome": 28974,
+                        "value": 1602,
+                        "fromIncome": 0,
+                        "deduction": 0
+                    },
+                    {
+                        "toIncome": 41790,
+                        "value": 1602,
+                        "fromIncome": 28974,
+                        "deduction": 0.125
+                    },
+                    {
+                        "value": 0,
+                        "fromIncome": 41790,
+                        "deduction": 0
+                    }
+                ]
+            },
+            "financialYear": "fy2025",
+            "superannuation": {
+                "maxContributionPerQuarter": 63887,
+                "concessionalCap": 27500,
+                "nonConcessionalExcessTax": 0.47,
+                "superGuarantee": 11.5,
+                "nonConcesssionalCap": 110000,
+                "concessionalTax": 0.15
+            },
+            "lowIncomeTaxOffset": [
+                {
+                    "toIncome": 37500,
+                    "value": 700,
+                    "fromIncome": 0,
+                    "deduction": 0
+                },
+                {
+                    "toIncome": 45000,
+                    "value": 700,
+                    "fromIncome": 37500,
+                    "deduction": 0.05
+                },
+                {
+                    "toIncome": 66667,
+                    "value": 325,
+                    "fromIncome": 45000,
+                    "deduction": 0.015
+                },
+                {
+                    "value": 0,
+                    "fromIncome": 66667,
+                    "deduction": 0
+                }
+            ],
+            "medicareLevySurchage": {
+                "familyMedicareLevySurcharge": [
+                    {
+                        "toIncome": 186000,
+                        "fromIncome": 0,
+                        "surchargeRate": 0
+                    },
+                    {
+                        "toIncome": 216000,
+                        "surchargeRate": 1,
+                        "fromIncome": 186001
+                    },
+                    {
+                        "toIncome": 288000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 216001
+                    },
+                    {
+                        "fromIncome": 288001,
+                        "surchargeRate": 1.5
+                    }
+                ],
+                "singleMedicareLevySurcharge": [
+                    {
+                        "toIncome": 93000,
+                        "fromIncome": 0,
+                        "surchargeRate": 0
+                    },
+                    {
+                        "toIncome": 108000,
+                        "fromIncome": 93001,
+                        "surchargeRate": 1
+                    },
+                    {
+                        "toIncome": 144000,
+                        "surchargeRate": 1.25,
+                        "fromIncome": 108001
+                    },
+                    {
+                        "fromIncome": 144001,
+                        "surchargeRate": 1.5
+                    }
+                ]
+            },
+            "medicareLevy": {
+                "medicareFamilyBrackets": {
+                    "dependants": 3873,
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 42167
+                        },
+                        {
+                            "lowerThreshold": 42167,
+                            "upperThreshold": 52709,
+                            "rate": 10
+                        },
+                        {
+                            "lowerThreshold": 52709,
+                            "rate": 2
+                        }
+                    ]
+                },
+                "medicareSeniorFamilyBrackets": {
+                    "dependants": 3873,
+                    "brackets": [
+                        {
+                            "upperThreshold": 55008,
+                            "rate": 0,
+                            "lowerThreshold": 0
+                        },
+                        {
+                            "rate": 10,
+                            "upperThreshold": 68760,
+                            "lowerThreshold": 55008
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 68760
+                        }
+                    ]
+                },
+                "medicareBrackets": {
+                    "brackets": [
+                        {
+                            "upperThreshold": 24276,
+                            "lowerThreshold": 0,
+                            "rate": 0
+                        },
+                        {
+                            "upperThreshold": 30345,
+                            "lowerThreshold": 24276,
+                            "rate": 10
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 30345
+                        }
+                    ]
+                },
+                "medicareSeniorBrackets": {
+                    "brackets": [
+                        {
+                            "rate": 0,
+                            "lowerThreshold": 0,
+                            "upperThreshold": 38365
+                        },
+                        {
+                            "upperThreshold": 47956,
+                            "rate": 10,
+                            "lowerThreshold": 38365
+                        },
+                        {
+                            "rate": 2,
+                            "lowerThreshold": 47956
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
