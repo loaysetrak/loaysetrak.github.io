@@ -335,18 +335,29 @@
                                 }
                             },
                             {
+                                "type": "navigationLink",
                                 "data": {
-                                    "name": "more.tipjar"
-                                },
-                                "type": "plugin",
-                                "style": {
-                                    "backgroundColor": "moduleBackground",
-                                    "cornerRadius": 8,
-                                    "padding": {
-                                        "top": "medium",
-                                        "bottom": "medium",
-                                        "leading": "medium",
-                                        "trailing": "medium"
+                                    "label": {
+                                        "data": {
+                                            "name": "more.tipjar"
+                                        },
+                                        "type": "plugin",
+                                        "style": {
+                                            "backgroundColor": "moduleBackground",
+                                            "cornerRadius": 8,
+                                            "padding": {
+                                                "top": "medium",
+                                                "bottom": "medium",
+                                                "leading": "medium",
+                                                "trailing": "medium"
+                                            }
+                                        }
+                                    },
+                                    "content": {
+                                        "type": "plugin",
+                                        "data": {
+                                            "name": "more.tipjar-screen"
+                                        }
                                     }
                                 }
                             }
