@@ -1,0 +1,41 @@
+{
+    "type": "navigationStack",
+    "data": {
+        "navigationTitle": "Things you should know",
+        "content": {
+            "type": "scrollView",
+            "axis": "vertical",
+            "data": {
+                "content": {
+                    "type": "lazyVStack",
+                    "data": {
+                        "content": [
+                            {
+                                "type": "text",
+                                "data": {
+                                    "text": "This calculator allows you to quickly estimate how much tax you will have to pay on your income by using rates and formulas from the Australian Taxation office (ATO).\n\nThese results should be used as an indication only and might be different from the final tax amount that you have to pay due to rounding figures and the limitations of this calculator to capture your full personal circumstances."
+                                },
+                                "style": {
+                                    "padding": {
+                                        "top": "medium",
+                                        "leading": "medium",
+                                        "trailing": "medium",
+                                        "bottom": "medium"
+                                    }
+                                }
+                            }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+    "style": {
+        "backgroundColor": "modalBackground",
+        "navigationTitle": "Things you should know",
+        "toolbarTitleDisplayMode": "inline"
+    }
+}
+
+
+
