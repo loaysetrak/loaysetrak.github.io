@@ -1,41 +1,64 @@
 {
-    "type": "navigationStack",
+    "type": "scrollView",
+    "axis": "vertical",
     "data": {
-        "navigationTitle": "Things you should know",
         "content": {
-            "type": "scrollView",
-            "axis": "vertical",
+            "type": "lazyVStack",
             "data": {
-                "content": {
-                    "type": "lazyVStack",
-                    "data": {
-                        "content": [
+                "content": [
+                    {
+                        "type": "text",
+                        "data": {
+                            "text": "This calculator allows you to quickly estimate how much tax you will have to pay on your income by using rates and formulas from the Australian Taxation office (ATO).\n\nThese results should be used as an indication only and might be different from the final tax amount that you have to pay due to rounding figures and the limitations of this calculator to capture your full personal circumstances."
+                        },
+                        "modifiers": [
                             {
-                                "type": "text",
+                                "type": "padding",
                                 "data": {
-                                    "text": "This calculator allows you to quickly estimate how much tax you will have to pay on your income by using rates and formulas from the Australian Taxation office (ATO).\n\nThese results should be used as an indication only and might be different from the final tax amount that you have to pay due to rounding figures and the limitations of this calculator to capture your full personal circumstances."
-                                },
-                                "style": {
-                                    "padding": {
-                                        "top": "medium",
-                                        "leading": "medium",
-                                        "trailing": "medium",
-                                        "bottom": "medium"
-                                    }
+                                    "edges": "all",
+                                    "length": 16,
                                 }
                             }
-                            ]
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "modifiers": [
+        {
+            "type": "background",
+            "data": {
+                "content": {
+                    "type": "color",
+                    "data": {
+                        "adaptive": {
+                            "light": {
+                                "red": 0.96,
+                                "green": 0.96,
+                                "blue": 0.96
+                            },
+                            "dark": {
+                                "red": 0.08,
+                                "green": 0.08,
+                                "blue": 0.08
+                            }
                         }
                     }
                 }
             }
         },
-    "style": {
-        "backgroundColor": "modalBackground",
-        "navigationTitle": "Things you should know",
-        "toolbarTitleDisplayMode": "inline"
-    }
+        {
+            "type": "navigationTitle",
+            "data": {
+                "title": "Things you should know"
+            }
+        },
+        {
+            "type": "navigationBarTitleDisplayMode",
+            "data": {
+                "displayMode": "inline"
+            }
+        }
+    ]
 }
-
-
-

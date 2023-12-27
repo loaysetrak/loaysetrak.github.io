@@ -7,15 +7,15 @@
             "data": {
                 "content": [
                     {
-                        "style": {
-                            "padding": {
-                                "bottom": "medium",
-                                "trailing": "medium",
-                                "top": "medium",
-                                "leading": "medium"
-                            },
-                            "stackSpacing": 8
-                        },
+                        "modifiers": [
+                            {
+                                "type": "padding",
+                                "data": {
+                                    "edges": "all",
+                                    "length": 16,
+                                }
+                            }
+                        ],
                         "type": "vStack",
                         "data": {
                             "content": [
@@ -27,9 +27,27 @@
                                                     "text": "Calculators"
                                                 },
                                                 "type": "text",
-                                                "style": {
-                                                    "foregroundColor": "secondaryText"
-                                                }
+                                                "modifiers": [
+                                                    {
+                                                        "type": "foregroundColor",
+                                                        "data": {
+                                                            "color": {
+                                                                "adaptive": {
+                                                                    "light": {
+                                                                        "red": 0.37,
+                                                                        "green": 0.37,
+                                                                        "blue": 0.37
+                                                                    },
+                                                                    "dark": {
+                                                                        "red": 0.75,
+                                                                        "green": 0.75,
+                                                                        "blue": 0.75
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
                                             },
                                             {
                                                 "type": "spacer"
@@ -54,9 +72,14 @@
                                                                         "imageReference": "finance_calculators_icon"
                                                                     },
                                                                     "type": "image",
-                                                                    "style": {
-                                                                        "width": 40
-                                                                    }
+                                                                    "modifiers": [
+                                                                        {
+                                                                            "type": "frame",
+                                                                            "data": {
+                                                                                "width": 40
+                                                                            }
+                                                                        }
+                                                                    ]
                                                                 },
                                                                 {
                                                                     "type": "vStack",
@@ -71,12 +94,22 @@
                                                                                             "data": {
                                                                                                 "text": "Finance Calculator"
                                                                                             },
-                                                                                            "style": {
-                                                                                                "multilineTextAlignment": "leading",
-                                                                                                "maxWidthInfinity": true,
-                                                                                                "alignment": "leading",
-                                                                                                "minWidth": 0
-                                                                                            }
+                                                                                            "modifiers": [
+                                                                                                {
+                                                                                                    "type": "textAlignment",
+                                                                                                    "data": {
+                                                                                                        "textAlignment": "leading"
+                                                                                                    }
+                                                                                                },
+                                                                                                {
+                                                                                                    "type": "frame",
+                                                                                                    "data": {
+                                                                                                        "maxWidth": "infinity",
+                                                                                                        "minWidth": 0,
+                                                                                                        "alignment": "leading"
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
                                                                                         },
                                                                                         {
                                                                                             "type": "image",
@@ -92,39 +125,91 @@
                                                                                 "data": {
                                                                                     "text": "Includes 97 financial calculators, equations and description"
                                                                                 },
-                                                                                "style": {
-                                                                                    "foregroundColor": "secondaryText",
-                                                                                    "multilineTextAlignment": "leading",
-                                                                                    "maxWidthInfinity": true,
-                                                                                    "alignment": "leading"
-                                                                                }
+                                                                                "modifiers": [
+                                                                                    {
+                                                                                        "type": "foregroundColor",
+                                                                                        "data": {
+                                                                                            "color": {
+                                                                                                "adaptive": {
+                                                                                                    "light": {
+                                                                                                        "red": 0.37,
+                                                                                                        "green": 0.37,
+                                                                                                        "blue": 0.37
+                                                                                                    },
+                                                                                                    "dark": {
+                                                                                                        "red": 0.75,
+                                                                                                        "green": 0.75,
+                                                                                                        "blue": 0.75
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "textAlignment",
+                                                                                        "data": {
+                                                                                            "textAlignment": "leading"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "frame",
+                                                                                        "data": {
+                                                                                            "maxWidth": "infinity",
+                                                                                            "minWidth": 0,
+                                                                                            "alignment": "leading"
+                                                                                        }
+                                                                                    }
+                                                                                ]
                                                                             }
                                                                         ]
                                                                     }
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "spacing": 16
                                                         },
-                                                        "style": {
-                                                            "padding": {
-                                                                "leading": "medium",
-                                                                "trailing": "medium",
-                                                                "bottom": "medium",
-                                                                "top": "medium"
+                                                        "modifiers": [
+                                                            {
+                                                                "type": "foregroundColor",
+                                                                "data": {
+                                                                    "color": {
+                                                                        "adaptive": {
+                                                                            "light": {
+                                                                                "red": 0.0,
+                                                                                "green": 0.0,
+                                                                                "blue": 0.0
+                                                                            },
+                                                                            "dark": {
+                                                                                "red": 1.0,
+                                                                                "green": 1.0,
+                                                                                "blue": 1.0
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
                                                             },
-                                                            "stackSpacing": 16,
-                                                            "foregroundColor": "primaryText"
-                                                        }
+                                                            {
+                                                                "type": "padding",
+                                                                "data": {
+                                                                    "edges": "all",
+                                                                    "length": 16,
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 "type": "button"
                                             },
                                             {
                                                 "type": "divider",
-                                                "style": {
-                                                    "padding": {
-                                                        "leading": "medium",
+                                                "modifiers": [
+                                                    {
+                                                        "type": "padding",
+                                                        "data": {
+                                                            "edges": "leading",
+                                                            "length": 16,
+                                                        }
                                                     }
-                                                }
+                                                ]
                                             },
                                             {
                                                 "data": {
@@ -138,9 +223,14 @@
                                                                         "imageReference": "physics_calculators_icon"
                                                                     },
                                                                     "type": "image",
-                                                                    "style": {
-                                                                        "width": 40
-                                                                    }
+                                                                    "modifiers": [
+                                                                        {
+                                                                            "type": "frame",
+                                                                            "data": {
+                                                                                "width": 40
+                                                                            }
+                                                                        }
+                                                                    ]
                                                                 },
                                                                 {
                                                                     "type": "vStack",
@@ -155,12 +245,22 @@
                                                                                             "data": {
                                                                                                 "text": "Physics Calculator"
                                                                                             },
-                                                                                            "style": {
-                                                                                                "multilineTextAlignment": "leading",
-                                                                                                "maxWidthInfinity": true,
-                                                                                                "alignment": "leading",
-                                                                                                "minWidth": 0
-                                                                                            }
+                                                                                            "modifiers": [
+                                                                                                {
+                                                                                                    "type": "textAlignment",
+                                                                                                    "data": {
+                                                                                                        "textAlignment": "leading"
+                                                                                                    }
+                                                                                                },
+                                                                                                {
+                                                                                                    "type": "frame",
+                                                                                                    "data": {
+                                                                                                        "maxWidth": "infinity",
+                                                                                                        "minWidth": 0,
+                                                                                                        "alignment": "leading"
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
                                                                                         },
                                                                                         {
                                                                                             "type": "image",
@@ -176,39 +276,91 @@
                                                                                 "data": {
                                                                                     "text": "Includes 120 physics calculators, equations and description"
                                                                                 },
-                                                                                "style": {
-                                                                                    "foregroundColor": "secondaryText",
-                                                                                    "multilineTextAlignment": "leading",
-                                                                                    "maxWidthInfinity": true,
-                                                                                    "alignment": "leading"
-                                                                                }
+                                                                                "modifiers": [
+                                                                                    {
+                                                                                        "type": "foregroundColor",
+                                                                                        "data": {
+                                                                                            "color": {
+                                                                                                "adaptive": {
+                                                                                                    "light": {
+                                                                                                        "red": 0.37,
+                                                                                                        "green": 0.37,
+                                                                                                        "blue": 0.37
+                                                                                                    },
+                                                                                                    "dark": {
+                                                                                                        "red": 0.75,
+                                                                                                        "green": 0.75,
+                                                                                                        "blue": 0.75
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "textAlignment",
+                                                                                        "data": {
+                                                                                            "textAlignment": "leading"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "frame",
+                                                                                        "data": {
+                                                                                            "maxWidth": "infinity",
+                                                                                            "minWidth": 0,
+                                                                                            "alignment": "leading"
+                                                                                        }
+                                                                                    }
+                                                                                ]
                                                                             }
                                                                         ]
                                                                     }
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "spacing": 16
                                                         },
-                                                        "style": {
-                                                            "padding": {
-                                                                "leading": "medium",
-                                                                "trailing": "medium",
-                                                                "bottom": "medium",
-                                                                "top": "medium"
+                                                        "modifiers": [
+                                                            {
+                                                                "type": "foregroundColor",
+                                                                "data": {
+                                                                    "color": {
+                                                                        "adaptive": {
+                                                                            "light": {
+                                                                                "red": 0.0,
+                                                                                "green": 0.0,
+                                                                                "blue": 0.0
+                                                                            },
+                                                                            "dark": {
+                                                                                "red": 1.0,
+                                                                                "green": 1.0,
+                                                                                "blue": 1.0
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
                                                             },
-                                                            "stackSpacing": 16,
-                                                            "foregroundColor": "primaryText"
-                                                        }
+                                                            {
+                                                                "type": "padding",
+                                                                "data": {
+                                                                    "edges": "all",
+                                                                    "length": 16,
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 "type": "button"
                                             },
                                             {
                                                 "type": "divider",
-                                                "style": {
-                                                    "padding": {
-                                                        "leading": "medium",
+                                                "modifiers": [
+                                                    {
+                                                        "type": "padding",
+                                                        "data": {
+                                                            "edges": "leading",
+                                                            "length": 16,
+                                                        }
                                                     }
-                                                }
+                                                ]
                                             },
                                             {
                                                 "data": {
@@ -222,9 +374,14 @@
                                                                         "imageReference": "geometry_calculators_icon"
                                                                     },
                                                                     "type": "image",
-                                                                    "style": {
-                                                                        "width": 40
-                                                                    }
+                                                                    "modifiers": [
+                                                                        {
+                                                                            "type": "frame",
+                                                                            "data": {
+                                                                                "width": 40
+                                                                            }
+                                                                        }
+                                                                    ]
                                                                 },
                                                                 {
                                                                     "type": "vStack",
@@ -239,12 +396,22 @@
                                                                                             "data": {
                                                                                                 "text": "Geometry Calculator"
                                                                                             },
-                                                                                            "style": {
-                                                                                                "multilineTextAlignment": "leading",
-                                                                                                "maxWidthInfinity": true,
-                                                                                                "alignment": "leading",
-                                                                                                "minWidth": 0
-                                                                                            }
+                                                                                            "modifiers": [
+                                                                                                {
+                                                                                                    "type": "textAlignment",
+                                                                                                    "data": {
+                                                                                                        "textAlignment": "leading"
+                                                                                                    }
+                                                                                                },
+                                                                                                {
+                                                                                                    "type": "frame",
+                                                                                                    "data": {
+                                                                                                        "maxWidth": "infinity",
+                                                                                                        "minWidth": 0,
+                                                                                                        "alignment": "leading"
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
                                                                                         },
                                                                                         {
                                                                                             "type": "image",
@@ -260,39 +427,91 @@
                                                                                 "data": {
                                                                                     "text": "Includes 30 geometry calculators, equations and description"
                                                                                 },
-                                                                                "style": {
-                                                                                    "foregroundColor": "secondaryText",
-                                                                                    "multilineTextAlignment": "leading",
-                                                                                    "maxWidthInfinity": true,
-                                                                                    "alignment": "leading"
-                                                                                }
+                                                                                "modifiers": [
+                                                                                    {
+                                                                                        "type": "foregroundColor",
+                                                                                        "data": {
+                                                                                            "color": {
+                                                                                                "adaptive": {
+                                                                                                    "light": {
+                                                                                                        "red": 0.37,
+                                                                                                        "green": 0.37,
+                                                                                                        "blue": 0.37
+                                                                                                    },
+                                                                                                    "dark": {
+                                                                                                        "red": 0.75,
+                                                                                                        "green": 0.75,
+                                                                                                        "blue": 0.75
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "textAlignment",
+                                                                                        "data": {
+                                                                                            "textAlignment": "leading"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "frame",
+                                                                                        "data": {
+                                                                                            "maxWidth": "infinity",
+                                                                                            "minWidth": 0,
+                                                                                            "alignment": "leading"
+                                                                                        }
+                                                                                    }
+                                                                                ]
                                                                             }
                                                                         ]
                                                                     }
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "spacing": 16
                                                         },
-                                                        "style": {
-                                                            "padding": {
-                                                                "leading": "medium",
-                                                                "trailing": "medium",
-                                                                "bottom": "medium",
-                                                                "top": "medium"
+                                                        "modifiers": [
+                                                            {
+                                                                "type": "foregroundColor",
+                                                                "data": {
+                                                                    "color": {
+                                                                        "adaptive": {
+                                                                            "light": {
+                                                                                "red": 0.0,
+                                                                                "green": 0.0,
+                                                                                "blue": 0.0
+                                                                            },
+                                                                            "dark": {
+                                                                                "red": 1.0,
+                                                                                "green": 1.0,
+                                                                                "blue": 1.0
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
                                                             },
-                                                            "stackSpacing": 16,
-                                                            "foregroundColor": "primaryText"
-                                                        }
+                                                            {
+                                                                "type": "padding",
+                                                                "data": {
+                                                                    "edges": "all",
+                                                                    "length": 16,
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 "type": "button"
                                             },
                                             {
                                                 "type": "divider",
-                                                "style": {
-                                                    "padding": {
-                                                        "leading": "medium",
+                                                "modifiers": [
+                                                    {
+                                                        "type": "padding",
+                                                        "data": {
+                                                            "edges": "leading",
+                                                            "length": 16,
+                                                        }
                                                     }
-                                                }
+                                                ]
                                             },
                                             {
                                                 "data": {
@@ -306,9 +525,14 @@
                                                                         "imageReference": "health_calculators_icon"
                                                                     },
                                                                     "type": "image",
-                                                                    "style": {
-                                                                        "width": 40
-                                                                    }
+                                                                    "modifiers": [
+                                                                        {
+                                                                            "type": "frame",
+                                                                            "data": {
+                                                                                "width": 40
+                                                                            }
+                                                                        }
+                                                                    ]
                                                                 },
                                                                 {
                                                                     "type": "vStack",
@@ -323,12 +547,22 @@
                                                                                             "data": {
                                                                                                 "text": "Health Calculator"
                                                                                             },
-                                                                                            "style": {
-                                                                                                "multilineTextAlignment": "leading",
-                                                                                                "maxWidthInfinity": true,
-                                                                                                "alignment": "leading",
-                                                                                                "minWidth": 0
-                                                                                            }
+                                                                                            "modifiers": [
+                                                                                                {
+                                                                                                    "type": "textAlignment",
+                                                                                                    "data": {
+                                                                                                        "textAlignment": "leading"
+                                                                                                    }
+                                                                                                },
+                                                                                                {
+                                                                                                    "type": "frame",
+                                                                                                    "data": {
+                                                                                                        "maxWidth": "infinity",
+                                                                                                        "minWidth": 0,
+                                                                                                        "alignment": "leading"
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
                                                                                         },
                                                                                         {
                                                                                             "type": "image",
@@ -344,39 +578,91 @@
                                                                                 "data": {
                                                                                     "text": "Includes 34 health calculators, equations and description"
                                                                                 },
-                                                                                "style": {
-                                                                                    "foregroundColor": "secondaryText",
-                                                                                    "multilineTextAlignment": "leading",
-                                                                                    "maxWidthInfinity": true,
-                                                                                    "alignment": "leading"
-                                                                                }
+                                                                                "modifiers": [
+                                                                                    {
+                                                                                        "type": "foregroundColor",
+                                                                                        "data": {
+                                                                                            "color": {
+                                                                                                "adaptive": {
+                                                                                                    "light": {
+                                                                                                        "red": 0.37,
+                                                                                                        "green": 0.37,
+                                                                                                        "blue": 0.37
+                                                                                                    },
+                                                                                                    "dark": {
+                                                                                                        "red": 0.75,
+                                                                                                        "green": 0.75,
+                                                                                                        "blue": 0.75
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "textAlignment",
+                                                                                        "data": {
+                                                                                            "textAlignment": "leading"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "frame",
+                                                                                        "data": {
+                                                                                            "maxWidth": "infinity",
+                                                                                            "minWidth": 0,
+                                                                                            "alignment": "leading"
+                                                                                        }
+                                                                                    }
+                                                                                ]
                                                                             }
                                                                         ]
                                                                     }
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "spacing": 16
                                                         },
-                                                        "style": {
-                                                            "padding": {
-                                                                "leading": "medium",
-                                                                "trailing": "medium",
-                                                                "bottom": "medium",
-                                                                "top": "medium"
+                                                        "modifiers": [
+                                                            {
+                                                                "type": "foregroundColor",
+                                                                "data": {
+                                                                    "color": {
+                                                                        "adaptive": {
+                                                                            "light": {
+                                                                                "red": 0.0,
+                                                                                "green": 0.0,
+                                                                                "blue": 0.0
+                                                                            },
+                                                                            "dark": {
+                                                                                "red": 1.0,
+                                                                                "green": 1.0,
+                                                                                "blue": 1.0
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
                                                             },
-                                                            "stackSpacing": 16,
-                                                            "foregroundColor": "primaryText"
-                                                        }
+                                                            {
+                                                                "type": "padding",
+                                                                "data": {
+                                                                    "edges": "all",
+                                                                    "length": 16,
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 "type": "button"
                                             },
                                             {
                                                 "type": "divider",
-                                                "style": {
-                                                    "padding": {
-                                                        "leading": "medium",
+                                                "modifiers": [
+                                                    {
+                                                        "type": "padding",
+                                                        "data": {
+                                                            "edges": "leading",
+                                                            "length": 16,
+                                                        }
                                                     }
-                                                }
+                                                ]
                                             },
                                             {
                                                 "data": {
@@ -390,9 +676,14 @@
                                                                         "imageReference": "engineering_calculators_icon"
                                                                     },
                                                                     "type": "image",
-                                                                    "style": {
-                                                                        "width": 40
-                                                                    }
+                                                                    "modifiers": [
+                                                                        {
+                                                                            "type": "frame",
+                                                                            "data": {
+                                                                                "width": 40
+                                                                            }
+                                                                        }
+                                                                    ]
                                                                 },
                                                                 {
                                                                     "type": "vStack",
@@ -407,12 +698,22 @@
                                                                                             "data": {
                                                                                                 "text": "Engineering Calculator"
                                                                                             },
-                                                                                            "style": {
-                                                                                                "multilineTextAlignment": "leading",
-                                                                                                "maxWidthInfinity": true,
-                                                                                                "alignment": "leading",
-                                                                                                "minWidth": 0
-                                                                                            }
+                                                                                            "modifiers": [
+                                                                                                {
+                                                                                                    "type": "textAlignment",
+                                                                                                    "data": {
+                                                                                                        "textAlignment": "leading"
+                                                                                                    }
+                                                                                                },
+                                                                                                {
+                                                                                                    "type": "frame",
+                                                                                                    "data": {
+                                                                                                        "maxWidth": "infinity",
+                                                                                                        "minWidth": 0,
+                                                                                                        "alignment": "leading"
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
                                                                                         },
                                                                                         {
                                                                                             "type": "image",
@@ -428,40 +729,117 @@
                                                                                 "data": {
                                                                                     "text": "Includes 59 engineering calculators, equations and description"
                                                                                 },
-                                                                                "style": {
-                                                                                    "foregroundColor": "secondaryText",
-                                                                                    "multilineTextAlignment": "leading",
-                                                                                    "maxWidthInfinity": true,
-                                                                                    "alignment": "leading"
-                                                                                }
+                                                                                "modifiers": [
+                                                                                    {
+                                                                                        "type": "foregroundColor",
+                                                                                        "data": {
+                                                                                            "color": {
+                                                                                                "adaptive": {
+                                                                                                    "light": {
+                                                                                                        "red": 0.37,
+                                                                                                        "green": 0.37,
+                                                                                                        "blue": 0.37
+                                                                                                    },
+                                                                                                    "dark": {
+                                                                                                        "red": 0.75,
+                                                                                                        "green": 0.75,
+                                                                                                        "blue": 0.75
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "textAlignment",
+                                                                                        "data": {
+                                                                                            "textAlignment": "leading"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "frame",
+                                                                                        "data": {
+                                                                                            "maxWidth": "infinity",
+                                                                                            "minWidth": 0,
+                                                                                            "alignment": "leading"
+                                                                                        }
+                                                                                    }
+                                                                                ]
                                                                             }
                                                                         ]
                                                                     }
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "spacing": 16
                                                         },
-                                                        "style": {
-                                                            "padding": {
-                                                                "leading": "medium",
-                                                                "trailing": "medium",
-                                                                "bottom": "medium",
-                                                                "top": "medium"
+                                                        "modifiers": [
+                                                            {
+                                                                "type": "foregroundColor",
+                                                                "data": {
+                                                                    "color": {
+                                                                        "adaptive": {
+                                                                            "light": {
+                                                                                "red": 0.0,
+                                                                                "green": 0.0,
+                                                                                "blue": 0.0
+                                                                            },
+                                                                            "dark": {
+                                                                                "red": 1.0,
+                                                                                "green": 1.0,
+                                                                                "blue": 1.0
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
                                                             },
-                                                            "stackSpacing": 16,
-                                                            "foregroundColor": "primaryText"
-                                                        }
+                                                            {
+                                                                "type": "padding",
+                                                                "data": {
+                                                                    "edges": "all",
+                                                                    "length": 16,
+                                                                }
+                                                            }
+                                                        ]
                                                     }
                                                 },
                                                 "type": "button"
                                             }
                                         ]
                                     },
-                                    "style": {
-                                        "backgroundColor": "moduleBackground",
-                                        "cornerRadius": 8
-                                    }
+                                    "modifiers": [
+                                        {
+                                            "type": "background",
+                                            "data": {
+                                                "content": {
+                                                    "type": "color",
+                                                    "data": {
+                                                        "adaptive": {
+                                                            "light": {
+                                                                "red": 1.0,
+                                                                "green": 1.0,
+                                                                "blue": 1.0
+                                                            },
+                                                            "dark": {
+                                                                "red": 0.13,
+                                                                "green": 0.13,
+                                                                "blue": 0.13
+                                                            }
+                                                        }
+                                                    },
+                                                    "modifiers": [
+                                                        {
+                                                            "type": "cornerRadius",
+                                                            "data": {
+                                                                "cornerRadius": 8
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
-                            ]
+                            ],
+                            "spacing": 8
                         }
                     },
                     {
@@ -482,9 +860,14 @@
                                                                         "imageReference": "CalcVerter-logo"
                                                                     },
                                                                     "type": "image",
-                                                                    "style": {
-                                                                        "width": 40
-                                                                    }
+                                                                    "modifiers": [
+                                                                        {
+                                                                            "type": "frame",
+                                                                            "data": {
+                                                                                "width": 40
+                                                                            }
+                                                                        }
+                                                                    ]
                                                                 },
                                                                 {
                                                                     "type": "vStack",
@@ -499,12 +882,22 @@
                                                                                             "data": {
                                                                                                 "text": "CalcVerter"
                                                                                             },
-                                                                                            "style": {
-                                                                                                "multilineTextAlignment": "leading",
-                                                                                                "maxWidthInfinity": true,
-                                                                                                "alignment": "leading",
-                                                                                                "minWidth": 0
-                                                                                            }
+                                                                                            "modifiers": [
+                                                                                                {
+                                                                                                    "type": "textAlignment",
+                                                                                                    "data": {
+                                                                                                        "textAlignment": "leading"
+                                                                                                    }
+                                                                                                },
+                                                                                                {
+                                                                                                    "type": "frame",
+                                                                                                    "data": {
+                                                                                                        "maxWidth": "infinity",
+                                                                                                        "minWidth": 0,
+                                                                                                        "alignment": "leading"
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
                                                                                         },
                                                                                         {
                                                                                             "type": "image",
@@ -520,60 +913,168 @@
                                                                                 "data": {
                                                                                     "text": "All in one scientific calculator with tape, unit converter, over 500 built in equation calculators, base converter, periodic table and more"
                                                                                 },
-                                                                                "style": {
-                                                                                    "foregroundColor": "secondaryText",
-                                                                                    "multilineTextAlignment": "leading",
-                                                                                    "maxWidthInfinity": true,
-                                                                                    "alignment": "leading"
-                                                                                }
+                                                                                "modifiers": [
+                                                                                    {
+                                                                                        "type": "foregroundColor",
+                                                                                        "data": {
+                                                                                            "color": {
+                                                                                                "adaptive": {
+                                                                                                    "light": {
+                                                                                                        "red": 0.37,
+                                                                                                        "green": 0.37,
+                                                                                                        "blue": 0.37
+                                                                                                    },
+                                                                                                    "dark": {
+                                                                                                        "red": 0.75,
+                                                                                                        "green": 0.75,
+                                                                                                        "blue": 0.75
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "textAlignment",
+                                                                                        "data": {
+                                                                                            "textAlignment": "leading"
+                                                                                        }
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "frame",
+                                                                                        "data": {
+                                                                                            "maxWidth": "infinity",
+                                                                                            "minWidth": 0,
+                                                                                            "alignment": "leading"
+                                                                                        }
+                                                                                    }
+                                                                                ]
                                                                             }
                                                                         ]
                                                                     }
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "spacing": 16
                                                         },
-                                                        "style": {
-                                                            "padding": {
-                                                                "leading": "medium",
-                                                                "trailing": "medium",
-                                                                "bottom": "medium",
-                                                                "top": "medium"
+                                                        "modifiers": [
+                                                            {
+                                                                "type": "foregroundColor",
+                                                                "data": {
+                                                                    "color": {
+                                                                        "adaptive": {
+                                                                            "light": {
+                                                                                "red": 0.0,
+                                                                                "green": 0.0,
+                                                                                "blue": 0.0
+                                                                            },
+                                                                            "dark": {
+                                                                                "red": 1.0,
+                                                                                "green": 1.0,
+                                                                                "blue": 1.0
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
                                                             },
-                                                            "stackSpacing": 16,
-                                                            "foregroundColor": "primaryText"
-                                                        }
+                                                            {
+                                                                "type": "padding",
+                                                                "data": {
+                                                                    "edges": "all",
+                                                                    "length": 16,
+                                                                }
+                                                            }
+                                                        ]
                                                     },
                                                     "actionURL": "https://apps.apple.com/au/app/calcverter/id1006610733"
                                                 }
                                             }
                                         ]
                                     },
-                                    "style": {
-                                        "backgroundColor": "moduleBackground",
-                                        "cornerRadius": 8
-                                    },
+                                    "modifiers": [
+                                        {
+                                            "type": "background",
+                                            "data": {
+                                                "content": {
+                                                    "type": "color",
+                                                    "data": {
+                                                        "adaptive": {
+                                                            "light": {
+                                                                "red": 1.0,
+                                                                "green": 1.0,
+                                                                "blue": 1.0
+                                                            },
+                                                            "dark": {
+                                                                "red": 0.13,
+                                                                "green": 0.13,
+                                                                "blue": 0.13
+                                                            }
+                                                        }
+                                                    },
+                                                    "modifiers": [
+                                                        {
+                                                            "type": "cornerRadius",
+                                                            "data": {
+                                                                "cornerRadius": 8
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ],
                                     "type": "vStack"
                                 }
-                            ]
+                            ],
+                            "spacing": 8
                         },
                         "type": "vStack",
-                        "style": {
-                            "stackSpacing": 8,
-                            "padding": {
-                                "top": "medium",
-                                "trailing": "medium",
-                                "bottom": "medium",
-                                "leading": "medium"
+                        "modifiers": [
+                            {
+                                "type": "padding",
+                                "data": {
+                                    "edges": "all",
+                                    "length": 16,
+                                }
                             }
-                        }
+                        ]
                     }
                 ]
             }
         }
     },
-    "style": {
-        "backgroundColor": "background",
-        "navigationTitle": "More apps",
-        "toolbarTitleDisplayMode": "inline"
-    }
+    "modifiers": [
+        {
+            "type": "background",
+            "data": {
+                "content": {
+                    "type": "color",
+                    "data": {
+                        "adaptive": {
+                            "light": {
+                                "red": 0.96,
+                                "green": 0.96,
+                                "blue": 0.96
+                            },
+                            "dark": {
+                                "red": 0.0,
+                                "green": 0.0,
+                                "blue": 0.0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "navigationTitle",
+            "data": {
+                "title": "More apps"
+            }
+        },
+        {
+            "type": "navigationBarTitleDisplayMode",
+            "data": {
+                "displayMode": "inline"
+            }
+        }
+    ]
 }
