@@ -137,6 +137,20 @@
                                                                                             }
                                                                                         }
                                                                                     }
+                                                                                },
+                                                                                {
+                                                                                    "type": "textAlignment",
+                                                                                    "data": {
+                                                                                        "textAlignment": "leading"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "type": "frame",
+                                                                                    "data": {
+                                                                                        "maxWidth": "infinity",
+                                                                                        "minWidth": 0,
+                                                                                        "alignment": "leading"
+                                                                                    }
                                                                                 }
                                                                             ]
                                                                         }
