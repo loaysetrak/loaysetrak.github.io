@@ -1,7 +1,6 @@
 {
     "type": "navigationStack",
     "data": {
-        "navigationTitle": "More",
         "content": {
             "type": "scrollView",
             "axis": "vertical",
@@ -684,6 +683,12 @@
                                 }
                             }
                         }
+                    }
+                },
+                {
+                    "type": "navigationTitle",
+                    "data": {
+                        "title": "More"
                     }
                 }
             ]
