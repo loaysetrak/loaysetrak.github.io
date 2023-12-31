@@ -96,6 +96,12 @@
                                                                                     "data": {
                                                                                         "textAlignment": "center"
                                                                                     }
+                                                                                },
+                                                                                {
+                                                                                    "type": "accessibilityLabel",
+                                                                                    "data": {
+                                                                                        "value": "Falling Blocks"
+                                                                                    }
                                                                                 }
                                                                             ]
                                                                         }
@@ -196,6 +202,12 @@
                                                                                     "type": "textAlignment",
                                                                                     "data": {
                                                                                         "textAlignment": "center"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "type": "accessibilityLabel",
+                                                                                    "data": {
+                                                                                        "value": "Sudoku"
                                                                                     }
                                                                                 }
                                                                             ]
@@ -298,6 +310,12 @@
                                                                                     "data": {
                                                                                         "textAlignment": "center"
                                                                                     }
+                                                                                },
+                                                                                {
+                                                                                    "type": "accessibilityLabel",
+                                                                                    "data": {
+                                                                                        "value": "Word Games"
+                                                                                    }
                                                                                 }
                                                                             ]
                                                                         }
@@ -388,7 +406,7 @@
                                                 }
                                             ]
                                         },
-                                        "axis": "horizontal",
+                                        "axis": "horizontal"
                                     },
                                     "modifiers": [
                                         {
@@ -396,6 +414,13 @@
                                             "data": {
                                                 "behaviour": "always",
                                                 "axis": "horizontal"
+                                            }
+                                        },
+                                        {
+                                            "type": "scrollIndicators",
+                                            "data": {
+                                                "visibility": "hidden",
+                                                "axes": "horizontal"
                                             }
                                         }
                                     ]
