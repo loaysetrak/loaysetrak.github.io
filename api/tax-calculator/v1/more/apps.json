@@ -11,7 +11,7 @@
                             {
                                 "type": "padding",
                                 "data": {
-                                    "edges": "all",
+                                    "edges": ["top", "bottom"],
                                     "length": 16,
                                 }
                             }
@@ -45,6 +45,13 @@
                                                                     }
                                                                 }
                                                             }
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "padding",
+                                                        "data": {
+                                                            "edges": ["leading", "trailing"],
+                                                            "length": 16,
                                                         }
                                                     }
                                                 ]
@@ -402,6 +409,13 @@
                                                     "data": {
                                                         "horizontal": false,
                                                         "vertical": true
+                                                    }
+                                                },
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": ["leading", "trailing"],
+                                                        "length": 16,
                                                     }
                                                 }
                                             ]
