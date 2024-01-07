@@ -149,6 +149,12 @@
                                     "edges": "all",
                                     "length": 16,
                                 }
+                            },
+                            {
+                                "type": "accessibilityElement",
+                                "data": {
+                                    "children": "combine"
+                                }
                             }
                         ]
                     }

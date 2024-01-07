@@ -59,10 +59,17 @@
                                                                         "type": "foregroundColor",
                                                                         "data": {
                                                                             "color": {
-                                                                                "rgb": {
-                                                                                    "red": 0.0,
-                                                                                    "green": 0.7,
-                                                                                    "blue": 0.39
+                                                                                "adaptive": {
+                                                                                    "light": {
+                                                                                        "red": 0.0,
+                                                                                        "green": 0.55,
+                                                                                        "blue": 0.19
+                                                                                    },
+                                                                                    "dark": {
+                                                                                        "red": 0.0,
+                                                                                        "green": 0.7,
+                                                                                        "blue": 0.39
+                                                                                    }
                                                                                 }
                                                                             }
                                                                         }
