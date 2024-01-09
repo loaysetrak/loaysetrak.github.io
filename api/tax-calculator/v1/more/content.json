@@ -619,17 +619,127 @@
                                 "type": "navigationLink",
                                 "data": {
                                     "label": {
+                                        "type": "vStack",
                                         "data": {
-                                            "name": "more.tipjar"
-                                        },
-                                        "type": "plugin",
-                                        "modifiers": [
-                                            {
-                                                "type": "cornerRadius",
-                                                "data": {
-                                                    "cornerRadius": 8
+                                            "content": [
+                                                {
+                                                    "type": "hStack",
+                                                    "data": {
+                                                        "content": [
+                                                            {
+                                                                "type": "text",
+                                                                "data": {
+                                                                    "text": "Tip Jar"
+                                                                },
+                                                                "modifiers": [
+                                                                    {
+                                                                        "type": "textAlignment",
+                                                                        "data": {
+                                                                            "textAlignment": "leading"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "frame",
+                                                                        "data": {
+                                                                            "maxWidth": "infinity",
+                                                                            "minWidth": 0,
+                                                                            "alignment": "leading"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "foregroundColor",
+                                                                        "data": {
+                                                                            "color": {
+                                                                                "colorName": "primary"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "type": "image",
+                                                                "data": {
+                                                                    "systemName": "chevron.right"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "modifiers": [
+                                                        {
+                                                            "type": "foregroundColor",
+                                                            "data": {
+                                                                "color": {
+                                                                    "colorName": "primary"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "data": {
+                                                        "text": "If you enjoy using Tax Calculator and find it useful please consider a tip to show your support and allow the app to continue being free."
+                                                    },
+                                                    "modifiers": [
+                                                        {
+                                                            "type": "textAlignment",
+                                                            "data": {
+                                                                "textAlignment": "leading"
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "frame",
+                                                            "data": {
+                                                                "maxWidth": "infinity",
+                                                                "minWidth": 0,
+                                                                "alignment": "leading"
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "foregroundColor",
+                                                            "data": {
+                                                                "color": {
+                                                                    "colorName": "secondary"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "plugin",
+                                                    "data": {
+                                                        "name": "more.tipjar-totaltipped"
+                                                    },
+                                                    "modifiers": [
+                                                        {
+                                                            "type": "textAlignment",
+                                                            "data": {
+                                                                "textAlignment": "leading"
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "frame",
+                                                            "data": {
+                                                                "maxWidth": "infinity",
+                                                                "minWidth": 0,
+                                                                "alignment": "leading"
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "foregroundColor",
+                                                            "data": {
+                                                                "color": {
+                                                                    "colorName": "secondary"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
                                                 }
-                                            },
+                                            ],
+                                            "spacing": 8
+                                        },
+                                        "spacing": 16,
+                                        "modifiers": [
                                             {
                                                 "type": "padding",
                                                 "data": {
@@ -638,66 +748,9 @@
                                                 }
                                             },
                                             {
-                                                "type": "background",
+                                                "type": "accessibilityElement",
                                                 "data": {
-                                                    "content": {
-                                                        "type": "linearGradient",
-                                                        "data": {
-                                                            "colors": [
-                                                                {
-                                                                    "adaptive": {
-                                                                        "light": {
-                                                                            "red": 0.15,
-                                                                            "green": 0.8,
-                                                                            "blue": 0.75
-                                                                        },
-                                                                        "dark": {
-                                                                            "red": 0.0,
-                                                                            "green": 0.48,
-                                                                            "blue": 0.44
-                                                                        }
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "adaptive": {
-                                                                        "light": {
-                                                                            "red": 0.18,
-                                                                            "green": 0.8,
-                                                                            "blue": 0.44
-                                                                        },
-                                                                        "dark": {
-                                                                            "red": 0.0,
-                                                                            "green": 0.55,
-                                                                            "blue": 0.19
-                                                                        }
-                                                                    }
-                                                                }
-                                                            ],
-                                                            "startPoint": {
-                                                                "x": 1,
-                                                                "y": 1
-                                                            },
-                                                            "endPoint": {
-                                                                "x": 0,
-                                                                "y": 0
-                                                            }
-                                                        },
-                                                        "modifiers": [
-                                                            {
-                                                                "type": "cornerRadius",
-                                                                "data": {
-                                                                    "cornerRadius": 8
-                                                                }
-                                                            },
-                                                            {
-                                                                "type": "padding",
-                                                                "data": {
-                                                                    "edges": "all",
-                                                                    "length": 16,
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
+                                                    "children": "combine"
                                                 }
                                             }
                                         ]
@@ -708,7 +761,79 @@
                                             "name": "more.tipjar-screen"
                                         }
                                     }
-                                }
+                                },
+                                "modifiers": [
+                                    {
+                                        "type": "padding",
+                                        "data": {
+                                            "edges": "all",
+                                            "length": 16,
+                                        }
+                                    },
+                                    {
+                                        "type": "background",
+                                        "data": {
+                                            "content": {
+                                                "type": "linearGradient",
+                                                "data": {
+                                                    "colors": [
+                                                        {
+                                                            "adaptive": {
+                                                                "light": {
+                                                                    "red": 0.15,
+                                                                    "green": 0.8,
+                                                                    "blue": 0.75
+                                                                },
+                                                                "dark": {
+                                                                    "red": 0.0,
+                                                                    "green": 0.48,
+                                                                    "blue": 0.44
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "adaptive": {
+                                                                "light": {
+                                                                    "red": 0.18,
+                                                                    "green": 0.8,
+                                                                    "blue": 0.44
+                                                                },
+                                                                "dark": {
+                                                                    "red": 0.0,
+                                                                    "green": 0.55,
+                                                                    "blue": 0.19
+                                                                }
+                                                            }
+                                                        }
+                                                    ],
+                                                    "startPoint": {
+                                                        "x": 1,
+                                                        "y": 1
+                                                    },
+                                                    "endPoint": {
+                                                        "x": 0,
+                                                        "y": 0
+                                                    }
+                                                },
+                                                "modifiers": [
+                                                    {
+                                                        "type": "cornerRadius",
+                                                        "data": {
+                                                            "cornerRadius": 8
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "padding",
+                                                        "data": {
+                                                            "edges": "all",
+                                                            "length": 16,
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
                             },
                             {
                                 "type": "vStack",
@@ -783,7 +908,8 @@
                                                 }
                                             ]
                                         }
-                                    ]
+                                    ],
+                                    "spacing": 8
                                 },
                                 "modifiers": [
                                     {
