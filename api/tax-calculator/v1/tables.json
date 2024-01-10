@@ -223,7 +223,6 @@
                         "fromIncome": 126956
                     },
                     {
-                        "toIncome": 0,
                         "fromIncome": 134573,
                         "repaymentRate": 10
                     }
@@ -320,7 +319,6 @@
                         "repaymentRate": 9.5
                     },
                     {
-                        "toIncome": 0,
                         "fromIncome": 116373,
                         "repaymentRate": 10
                     }
@@ -772,7 +770,6 @@
                         "repaymentRate": 9.5
                     },
                     {
-                        "toIncome": 0,
                         "repaymentRate": 10,
                         "fromIncome": 136740
                     }
@@ -869,7 +866,6 @@
                         "fromIncome": 110800
                     },
                     {
-                        "toIncome": 0,
                         "fromIncome": 118540,
                         "repaymentRate": 10
                     }
@@ -1327,7 +1323,6 @@
                         "fromIncome": 111893
                     },
                     {
-                        "toIncome": 0,
                         "fromIncome": 119698,
                         "repaymentRate": 10
                     }
@@ -1424,7 +1419,6 @@
                         "repaymentRate": 9.5
                     },
                     {
-                        "toIncome": 0,
                         "repaymentRate": 10,
                         "fromIncome": 137898
                     }
@@ -1882,7 +1876,6 @@
                         "fromIncome": 133819
                     },
                     {
-                        "toIncome": 0,
                         "fromIncome": 141848,
                         "repaymentRate": 10
                     }
@@ -1979,7 +1972,6 @@
                         "repaymentRate": 9.5
                     },
                     {
-                        "toIncome": 0,
                         "repaymentRate": 10,
                         "fromIncome": 123648
                     }
@@ -2409,7 +2401,6 @@
                         "fromIncome": 142643
                     },
                     {
-                        "toIncome": 0,
                         "fromIncome": 151201,
                         "repaymentRate": 10
                     }
@@ -2506,7 +2497,6 @@
                         "fromIncome": 124443
                     },
                     {
-                        "toIncome": 0,
                         "fromIncome": 133001,
                         "repaymentRate": 10
                     }
@@ -2912,7 +2902,6 @@
                         "fromIncome": 129420
                     },
                     {
-                        "toIncome": 0,
                         "fromIncome": 138277,
                         "repaymentRate": 10
                     }
@@ -3009,7 +2998,6 @@
                         "fromIncome": 147620
                     },
                     {
-                        "toIncome": 0,
                         "repaymentRate": 10,
                         "fromIncome": 156477
                     }
