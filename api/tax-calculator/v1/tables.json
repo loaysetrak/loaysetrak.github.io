@@ -3254,7 +3254,7 @@
                     {
                         "taxRate": 45,
                         "fromIncome": 190001,
-                        "baseTaxAmount": 63750
+                        "baseTaxAmount": 60850
                     }
                 ],
                 "noTaxFreeThreshold": [
@@ -3286,37 +3286,31 @@
                     {
                         "toIncome": 45000,
                         "fromIncome": 0,
-                        "taxRate": 16,
+                        "taxRate": 15,
                         "baseTaxAmount": 0
                     },
                     {
-                        "toIncome": 135000,
+                        "toIncome": 190000,
                         "fromIncome": 45001,
                         "taxRate": 30,
-                        "baseTaxAmount": 7200
-                    },
-                    {
-                        "toIncome": 190000,
-                        "fromIncome": 135001,
-                        "taxRate": 37,
-                        "baseTaxAmount": 34200
+                        "baseTaxAmount": 6750
                     },
                     {
                         "taxRate": 45,
                         "fromIncome": 190001,
-                        "baseTaxAmount": 54525
+                        "baseTaxAmount": 50250
                     }
                 ],
                 "australianResident": [
                     {
-                        "toIncome": 19000,
+                        "toIncome": 18200,
                         "fromIncome": 0,
                         "taxRate": 0,
                         "baseTaxAmount": 0
                     },
                     {
                         "toIncome": 45000,
-                        "fromIncome": 19001,
+                        "fromIncome": 18201,
                         "taxRate": 16,
                         "baseTaxAmount": 0
                     },
@@ -3324,18 +3318,18 @@
                         "toIncome": 135000,
                         "fromIncome": 45001,
                         "taxRate": 30,
-                        "baseTaxAmount": 4160
+                        "baseTaxAmount": 4288
                     },
                     {
                         "toIncome": 190000,
                         "fromIncome": 135001,
                         "taxRate": 37,
-                        "baseTaxAmount": 31160
+                        "baseTaxAmount": 31288
                     },
                     {
                         "taxRate": 45,
                         "fromIncome": 190001,
-                        "baseTaxAmount": 51510
+                        "baseTaxAmount": 51638
                     }
                 ]
             },
