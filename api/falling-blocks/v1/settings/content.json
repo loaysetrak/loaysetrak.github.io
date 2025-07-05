@@ -1,0 +1,1119 @@
+{
+    "type": "navigationStack",
+    "data": {
+        "content": {
+            "type": "scrollView",
+            "axis": "vertical",
+            "data": {
+                "content": {
+                    "type": "lazyVStack",
+                    "data": {
+                        "content": [
+                            {
+                                "type": "vStack",
+                                "data": {
+                                    "content": [
+                                        {
+                                            "type": "plugin",
+                                            "data": {
+                                                "name": "settings.difficulty"
+                                            },
+                                            "modifiers": [
+                                                {
+                                                    "type": "foregroundColor",
+                                                    "data": {
+                                                        "color": {
+                                                            "adaptive": {
+                                                                "light": {
+                                                                    "red": 0.0,
+                                                                    "green": 0.0,
+                                                                    "blue": 0.0
+                                                                },
+                                                                "dark": {
+                                                                    "red": 1.0,
+                                                                    "green": 1.0,
+                                                                    "blue": 1.0
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "all",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "divider",
+                                            "modifiers": [
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "leading",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "button",
+                                            "data": {
+                                                "actionURL": "childScreen:settings_theme",
+                                                "content": {
+                                                    "data": {
+                                                        "content": [
+                                                            {
+                                                                "data": {
+                                                                    "systemName": "paintbrush"
+                                                                },
+                                                                "type": "image"
+                                                            },
+                                                            {
+                                                                "type": "text",
+                                                                "data": {
+                                                                    "text": "Theme"
+                                                                },
+                                                                "modifiers": [
+                                                                    {
+                                                                        "type": "textAlignment",
+                                                                        "data": {
+                                                                            "textAlignment": "leading"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "frame",
+                                                                        "data": {
+                                                                            "maxWidth": "infinity",
+                                                                            "minWidth": 0,
+                                                                            "alignment": "leading"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "type": "image",
+                                                                "data": {
+                                                                    "systemName": "chevron.right"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "spacing": 16
+                                                    },
+                                                    "type": "hStack",
+                                                    "modifiers": [
+                                                        {
+                                                            "type": "foregroundColor",
+                                                            "data": {
+                                                                "color": {
+                                                                    "adaptive": {
+                                                                        "light": {
+                                                                            "red": 0.0,
+                                                                            "green": 0.0,
+                                                                            "blue": 0.0
+                                                                        },
+                                                                        "dark": {
+                                                                            "red": 1.0,
+                                                                            "green": 1.0,
+                                                                            "blue": 1.0
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "padding",
+                                                            "data": {
+                                                                "edges": "all",
+                                                                "length": 16,
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "divider",
+                                            "modifiers": [
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "leading",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "plugin",
+                                            "data": {
+                                                "name": "settings.sound"
+                                            },
+                                            "modifiers": [
+                                                {
+                                                    "type": "foregroundColor",
+                                                    "data": {
+                                                        "color": {
+                                                            "adaptive": {
+                                                                "light": {
+                                                                    "red": 0.0,
+                                                                    "green": 0.0,
+                                                                    "blue": 0.0
+                                                                },
+                                                                "dark": {
+                                                                    "red": 1.0,
+                                                                    "green": 1.0,
+                                                                    "blue": 1.0
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "all",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "divider",
+                                            "modifiers": [
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "leading",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "plugin",
+                                            "data": {
+                                                "name": "settings.gridlines"
+                                            },
+                                            "modifiers": [
+                                                {
+                                                    "type": "foregroundColor",
+                                                    "data": {
+                                                        "color": {
+                                                            "adaptive": {
+                                                                "light": {
+                                                                    "red": 0.0,
+                                                                    "green": 0.0,
+                                                                    "blue": 0.0
+                                                                },
+                                                                "dark": {
+                                                                    "red": 1.0,
+                                                                    "green": 1.0,
+                                                                    "blue": 1.0
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "all",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "divider",
+                                            "modifiers": [
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "leading",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "plugin",
+                                            "data": {
+                                                "name": "settings.ghostpiece"
+                                            },
+                                            "modifiers": [
+                                                {
+                                                    "type": "foregroundColor",
+                                                    "data": {
+                                                        "color": {
+                                                            "adaptive": {
+                                                                "light": {
+                                                                    "red": 0.0,
+                                                                    "green": 0.0,
+                                                                    "blue": 0.0
+                                                                },
+                                                                "dark": {
+                                                                    "red": 1.0,
+                                                                    "green": 1.0,
+                                                                    "blue": 1.0
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "all",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "divider",
+                                            "modifiers": [
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "leading",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "plugin",
+                                            "data": {
+                                                "name": "settings.autoresume"
+                                            },
+                                            "modifiers": [
+                                                {
+                                                    "type": "foregroundColor",
+                                                    "data": {
+                                                        "color": {
+                                                            "adaptive": {
+                                                                "light": {
+                                                                    "red": 0.0,
+                                                                    "green": 0.0,
+                                                                    "blue": 0.0
+                                                                },
+                                                                "dark": {
+                                                                    "red": 1.0,
+                                                                    "green": 1.0,
+                                                                    "blue": 1.0
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "all",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "modifiers": [
+                                    {
+                                        "type": "background",
+                                        "data": {
+                                            "content": {
+                                                "type": "color",
+                                                "data": {
+                                                    "colorName": "secondarySystemGroupedBackground"
+                                                },
+                                                "modifiers": [
+                                                    {
+                                                        "type": "cornerRadius",
+                                                        "data": {
+                                                            "cornerRadius": 24
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "vStack",
+                                "data": {
+                                    "content": [
+                                        {
+                                            "type": "vStack",
+                                            "data": {
+                                                "content": [
+                                                    {
+                                                        "type": "vStack",
+                                                        "data": {
+                                                            "content": [
+                                                                {
+                                                                    "data": {
+                                                                        "actionURL": "childScreen:settings_store",
+                                                                        "content": {
+                                                                            "type": "hStack",
+                                                                            "data": {
+                                                                                "content": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "systemName": "cart"
+                                                                                        },
+                                                                                        "type": "image"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "text",
+                                                                                        "data": {
+                                                                                            "text": "Store"
+                                                                                        },
+                                                                                        "modifiers": [
+                                                                                            {
+                                                                                                "type": "textAlignment",
+                                                                                                "data": {
+                                                                                                    "textAlignment": "leading"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "type": "frame",
+                                                                                                "data": {
+                                                                                                    "maxWidth": "infinity",
+                                                                                                    "minWidth": 0,
+                                                                                                    "alignment": "leading"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "systemName": "chevron.right"
+                                                                                        },
+                                                                                        "type": "image"
+                                                                                    }
+                                                                                ],
+                                                                                "spacing": 16
+                                                                            },
+                                                                            "modifiers": [
+                                                                                {
+                                                                                    "type": "foregroundColor",
+                                                                                    "data": {
+                                                                                        "color": {
+                                                                                            "adaptive": {
+                                                                                                "light": {
+                                                                                                    "red": 0.0,
+                                                                                                    "green": 0.0,
+                                                                                                    "blue": 0.0
+                                                                                                },
+                                                                                                "dark": {
+                                                                                                    "red": 1.0,
+                                                                                                    "green": 1.0,
+                                                                                                    "blue": 1.0
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "type": "padding",
+                                                                                    "data": {
+                                                                                        "edges": "all",
+                                                                                        "length": 16,
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "type": "button"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "modifiers": [
+                                                            {
+                                                                "type": "background",
+                                                                "data": {
+                                                                    "content": {
+                                                                        "type": "color",
+                                                                        "data": {
+                                                                            "colorName": "secondarySystemGroupedBackground"
+                                                                        },
+                                                                        "modifiers": [
+                                                                            {
+                                                                                "type": "cornerRadius",
+                                                                                "data": {
+                                                                                    "cornerRadius": 24
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "plugin",
+                                                        "data": {
+                                                            "name": "app.versiondetails"
+                                                        },
+                                                        "modifiers": [
+                                                            {
+                                                                "type": "textAlignment",
+                                                                "data": {
+                                                                    "textAlignment": "leading"
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "frame",
+                                                                "data": {
+                                                                    "maxWidth": "infinity",
+                                                                    "minWidth": 0,
+                                                                    "alignment": "leading"
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "foregroundColor",
+                                                                "data": {
+                                                                    "color": {
+                                                                        "adaptive": {
+                                                                            "light": {
+                                                                                "red": 0.37,
+                                                                                "green": 0.37,
+                                                                                "blue": 0.37
+                                                                            },
+                                                                            "dark": {
+                                                                                "red": 0.75,
+                                                                                "green": 0.75,
+                                                                                "blue": 0.75
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "padding",
+                                                                "data": {
+                                                                    "edges": "top",
+                                                                    "length": 16,
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "spacing": 8
+                                            }
+                                        }
+                                    ],
+                                    "spacing": 8
+                                }
+                            },
+                            {
+                                "type": "vStack",
+                                "data": {
+                                    "content": [
+                                        {
+                                            "type": "plugin",
+                                            "data": {
+                                                "name": "settings.cloudsync"
+                                            },
+                                            "modifiers": [
+                                                {
+                                                    "type": "foregroundColor",
+                                                    "data": {
+                                                        "color": {
+                                                            "adaptive": {
+                                                                "light": {
+                                                                    "red": 0.0,
+                                                                    "green": 0.0,
+                                                                    "blue": 0.0
+                                                                },
+                                                                "dark": {
+                                                                    "red": 1.0,
+                                                                    "green": 1.0,
+                                                                    "blue": 1.0
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "all",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "modifiers": [
+                                    {
+                                        "type": "background",
+                                        "data": {
+                                            "content": {
+                                                "type": "color",
+                                                "data": {
+                                                    "colorName": "secondarySystemGroupedBackground"
+                                                },
+                                                "modifiers": [
+                                                    {
+                                                        "type": "cornerRadius",
+                                                        "data": {
+                                                            "cornerRadius": 24
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "vStack",
+                                "data": {
+                                    "content": [
+                                        {
+                                            "type": "vStack",
+                                            "data": {
+                                                "content": [
+                                                    {
+                                                        "data": {
+                                                            "content": [
+                                                                {
+                                                                    "data": {
+                                                                        "text": "Popular links"
+                                                                    },
+                                                                    "type": "text",
+                                                                    "modifiers": [
+                                                                        {
+                                                                            "type": "foregroundColor",
+                                                                            "data": {
+                                                                                "color": {
+                                                                                    "adaptive": {
+                                                                                        "light": {
+                                                                                            "red": 0.37,
+                                                                                            "green": 0.37,
+                                                                                            "blue": 0.37
+                                                                                        },
+                                                                                        "dark": {
+                                                                                            "red": 0.75,
+                                                                                            "green": 0.75,
+                                                                                            "blue": 0.75
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                 },
+                                                                {
+                                                                    "type": "spacer"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "type": "hStack"
+                                                    },
+                                                    {
+                                                        "type": "vStack",
+                                                        "data": {
+                                                            "content": [
+                                                                {
+                                                                    "data": {
+                                                                        "actionURL": "https://loaysetrak.com",
+                                                                        "content": {
+                                                                            "type": "hStack",
+                                                                            "data": {
+                                                                                "content": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "systemName": "globe"
+                                                                                        },
+                                                                                        "type": "image"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "text",
+                                                                                        "data": {
+                                                                                            "text": "Developer Website"
+                                                                                        },
+                                                                                        "modifiers": [
+                                                                                            {
+                                                                                                "type": "textAlignment",
+                                                                                                "data": {
+                                                                                                    "textAlignment": "leading"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "type": "frame",
+                                                                                                "data": {
+                                                                                                    "maxWidth": "infinity",
+                                                                                                    "minWidth": 0,
+                                                                                                    "alignment": "leading"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "systemName": "chevron.right"
+                                                                                        },
+                                                                                        "type": "image"
+                                                                                    }
+                                                                                ],
+                                                                                "spacing": 16
+                                                                            },
+                                                                            "modifiers": [
+                                                                                {
+                                                                                    "type": "foregroundColor",
+                                                                                    "data": {
+                                                                                        "color": {
+                                                                                            "adaptive": {
+                                                                                                "light": {
+                                                                                                    "red": 0.0,
+                                                                                                    "green": 0.0,
+                                                                                                    "blue": 0.0
+                                                                                                },
+                                                                                                "dark": {
+                                                                                                    "red": 1.0,
+                                                                                                    "green": 1.0,
+                                                                                                    "blue": 1.0
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "type": "padding",
+                                                                                    "data": {
+                                                                                        "edges": "all",
+                                                                                        "length": 16,
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "type": "button"
+                                                                },
+                                                                {
+                                                                    "type": "divider",
+                                                                    "modifiers": [
+                                                                        {
+                                                                            "type": "padding",
+                                                                            "data": {
+                                                                                "edges": "leading",
+                                                                                "length": 16,
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "button",
+                                                                    "data": {
+                                                                        "content": {
+                                                                            "data": {
+                                                                                "content": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "systemName": "envelope"
+                                                                                        },
+                                                                                        "type": "image"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "text",
+                                                                                        "data": {
+                                                                                            "text": "Contact Developer"
+                                                                                        },
+                                                                                        "modifiers": [
+                                                                                            {
+                                                                                                "type": "textAlignment",
+                                                                                                "data": {
+                                                                                                    "textAlignment": "leading"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "type": "frame",
+                                                                                                "data": {
+                                                                                                    "maxWidth": "infinity",
+                                                                                                    "minWidth": 0,
+                                                                                                    "alignment": "leading"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "image",
+                                                                                        "data": {
+                                                                                            "systemName": "chevron.right"
+                                                                                        }
+                                                                                    }
+                                                                                ],
+                                                                                "spacing": 16
+                                                                            },
+                                                                            "type": "hStack",
+                                                                            "modifiers": [
+                                                                                {
+                                                                                    "type": "foregroundColor",
+                                                                                    "data": {
+                                                                                        "color": {
+                                                                                            "adaptive": {
+                                                                                                "light": {
+                                                                                                    "red": 0.0,
+                                                                                                    "green": 0.0,
+                                                                                                    "blue": 0.0
+                                                                                                },
+                                                                                                "dark": {
+                                                                                                    "red": 1.0,
+                                                                                                    "green": 1.0,
+                                                                                                    "blue": 1.0
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "type": "padding",
+                                                                                    "data": {
+                                                                                        "edges": "all",
+                                                                                        "length": 16,
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "actionURL": "mailto:loaysetrak.software@outlook.com.au"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "divider",
+                                                                    "modifiers": [
+                                                                        {
+                                                                            "type": "padding",
+                                                                            "data": {
+                                                                                "edges": "leading",
+                                                                                "length": 16,
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "button",
+                                                                    "data": {
+                                                                        "content": {
+                                                                            "type": "hStack",
+                                                                            "modifiers": [
+                                                                                {
+                                                                                    "type": "foregroundColor",
+                                                                                    "data": {
+                                                                                        "color": {
+                                                                                            "adaptive": {
+                                                                                                "light": {
+                                                                                                    "red": 0.0,
+                                                                                                    "green": 0.0,
+                                                                                                    "blue": 0.0
+                                                                                                },
+                                                                                                "dark": {
+                                                                                                    "red": 1.0,
+                                                                                                    "green": 1.0,
+                                                                                                    "blue": 1.0
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "type": "padding",
+                                                                                    "data": {
+                                                                                        "edges": "all",
+                                                                                        "length": 16,
+                                                                                    }
+                                                                                }
+                                                                            ],
+                                                                            "data": {
+                                                                                "content": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "systemName": "star"
+                                                                                        },
+                                                                                        "type": "image"
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "text",
+                                                                                        "data": {
+                                                                                            "text": "Rate"
+                                                                                        },
+                                                                                        "modifiers": [
+                                                                                            {
+                                                                                                "type": "textAlignment",
+                                                                                                "data": {
+                                                                                                    "textAlignment": "leading"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "type": "frame",
+                                                                                                "data": {
+                                                                                                    "maxWidth": "infinity",
+                                                                                                    "minWidth": 0,
+                                                                                                    "alignment": "leading"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "systemName": "chevron.right"
+                                                                                        },
+                                                                                        "type": "image"
+                                                                                    }
+                                                                                ],
+                                                                                "spacing": 16
+                                                                            }
+                                                                        },
+                                                                        "actionURL": "https://apps.apple.com/app/falling-blocks-puzzle-game/id1474442643"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "modifiers": [
+                                                            {
+                                                                "type": "background",
+                                                                "data": {
+                                                                    "content": {
+                                                                        "type": "color",
+                                                                        "data": {
+                                                                            "colorName": "secondarySystemGroupedBackground"
+                                                                        },
+                                                                        "modifiers": [
+                                                                            {
+                                                                                "type": "cornerRadius",
+                                                                                "data": {
+                                                                                    "cornerRadius": 24
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "plugin",
+                                                        "data": {
+                                                            "name": "app.versiondetails"
+                                                        },
+                                                        "modifiers": [
+                                                            {
+                                                                "type": "textAlignment",
+                                                                "data": {
+                                                                    "textAlignment": "leading"
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "frame",
+                                                                "data": {
+                                                                    "maxWidth": "infinity",
+                                                                    "minWidth": 0,
+                                                                    "alignment": "leading"
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "foregroundColor",
+                                                                "data": {
+                                                                    "color": {
+                                                                        "adaptive": {
+                                                                            "light": {
+                                                                                "red": 0.37,
+                                                                                "green": 0.37,
+                                                                                "blue": 0.37
+                                                                            },
+                                                                            "dark": {
+                                                                                "red": 0.75,
+                                                                                "green": 0.75,
+                                                                                "blue": 0.75
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "padding",
+                                                                "data": {
+                                                                    "edges": "top",
+                                                                    "length": 16,
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "spacing": 8
+                                            }
+                                        }
+                                    ],
+                                    "spacing": 8
+                                }
+                            },
+                            {
+                                "type": "plugin",
+                                "data": {
+                                    "name": "ads.apppromotion"
+                                },
+                                "modifiers": [
+                                    {
+                                        "type": "foregroundColor",
+                                        "data": {
+                                            "color": {
+                                                "adaptive": {
+                                                    "light": {
+                                                        "red": 0.0,
+                                                        "green": 0.0,
+                                                        "blue": 0.0
+                                                    },
+                                                    "dark": {
+                                                        "red": 1.0,
+                                                        "green": 1.0,
+                                                        "blue": 1.0
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "spacing": 24
+                    },
+                    "modifiers": [
+                        {
+                            "type": "padding",
+                            "data": {
+                                "edges": "all",
+                                "length": 16,
+                            }
+                        }
+                    ]
+                }
+            },
+            "modifiers": [
+                {
+                    "type": "navigationTitle",
+                    "data": {
+                        "title": "Settings"
+                    }
+                },
+                {
+                    "type": "scrollBounceBehavior",
+                    "data": {
+                        "behaviour": "always",
+                        "axis": "vertical"
+                    }
+                },
+                {
+                    "type": "scrollIndicators",
+                    "data": {
+                        "visibility": "hidden",
+                        "axes": "vertical"
+                    }
+                },
+                {
+                    "type": "navigationBarTitleDisplayMode",
+                    "data": {
+                        "displayMode": "inline"
+                    }
+                },
+                {
+                    "type": "background",
+                    "data": {
+                        "content": {
+                            "type": "color",
+                            "data": {
+                                "colorName": "systemGroupedBackground"
+                            },
+                            "modifiers": [
+                                {
+                                    "type": "cornerRadius",
+                                    "data": {
+                                        "cornerRadius": 24
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "childScreens": [
+        {
+            "identifier": "settings_block_size",
+            "type": "plugin",
+            "data": {
+                "name": "settings.difficulty"
+            }
+        },
+        {
+            "identifier": "settings_theme",
+            "type": "plugin",
+            "data": {
+                "name": "settings.theme"
+            }
+        },
+        {
+            "identifier": "settings_sound",
+            "type": "plugin",
+            "data": {
+                "name": "settings.sound"
+            }
+        },
+        {
+            "identifier": "settings_gridlines",
+            "type": "plugin",
+            "data": {
+                "name": "settings.gridlines"
+            }
+        },
+        {
+            "identifier": "settings_ghostpiece",
+            "type": "plugin",
+            "data": {
+                "name": "settings.ghostpiece"
+            }
+        },
+        {
+            "identifier": "settings_autoresume",
+            "type": "plugin",
+            "data": {
+                "name": "settings.autoresume"
+            }
+        },
+        {
+            "identifier": "settings_store",
+            "type": "plugin",
+            "data": {
+                "name": "settings.store"
+            }
+        },
+        {
+            "identifier": "settings_cloudsync",
+            "type": "plugin",
+            "data": {
+                "name": "settings.cloudsync"
+            }
+        },
+        {
+            "identifier": "settings_apps",
+            "type": "plugin",
+            "data": {
+                "name": "settings.apps"
+            }
+        },
+        {
+            "identifier": "ads_apppromotion",
+            "type": "plugin",
+            "data": {
+                "name": "ads.apppromotion"
+            }
+        }
+    ]
+}
