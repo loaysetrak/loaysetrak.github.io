@@ -148,6 +148,94 @@
                                             ]
                                         },
                                         {
+                                            "type": "button",
+                                            "data": {
+                                                "actionURL": "childScreen:settings_touchcontrols",
+                                                "content": {
+                                                    "data": {
+                                                        "content": [
+                                                            {
+                                                                "data": {
+                                                                    "systemName": "hand.tap"
+                                                                },
+                                                                "type": "image"
+                                                            },
+                                                            {
+                                                                "type": "text",
+                                                                "data": {
+                                                                    "text": "Touch Controls"
+                                                                },
+                                                                "modifiers": [
+                                                                    {
+                                                                        "type": "textAlignment",
+                                                                        "data": {
+                                                                            "textAlignment": "leading"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "frame",
+                                                                        "data": {
+                                                                            "maxWidth": "infinity",
+                                                                            "minWidth": 0,
+                                                                            "alignment": "leading"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "type": "image",
+                                                                "data": {
+                                                                    "systemName": "chevron.right"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "spacing": 16
+                                                    },
+                                                    "type": "hStack",
+                                                    "modifiers": [
+                                                        {
+                                                            "type": "foregroundColor",
+                                                            "data": {
+                                                                "color": {
+                                                                    "adaptive": {
+                                                                        "light": {
+                                                                            "red": 0.0,
+                                                                            "green": 0.0,
+                                                                            "blue": 0.0
+                                                                        },
+                                                                        "dark": {
+                                                                            "red": 1.0,
+                                                                            "green": 1.0,
+                                                                            "blue": 1.0
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "padding",
+                                                            "data": {
+                                                                "edges": "all",
+                                                                "length": 16,
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "divider",
+                                            "modifiers": [
+                                                {
+                                                    "type": "padding",
+                                                    "data": {
+                                                        "edges": "leading",
+                                                        "length": 16,
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
                                             "type": "plugin",
                                             "data": {
                                                 "name": "settings.sound"
@@ -410,94 +498,6 @@
                                                     }
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "type": "divider",
-                                            "modifiers": [
-                                                {
-                                                    "type": "padding",
-                                                    "data": {
-                                                        "edges": "leading",
-                                                        "length": 16,
-                                                    }
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "type": "button",
-                                            "data": {
-                                                "actionURL": "childScreen:settings_touchcontrols",
-                                                "content": {
-                                                    "data": {
-                                                        "content": [
-                                                            {
-                                                                "data": {
-                                                                    "systemName": "hand.tap"
-                                                                },
-                                                                "type": "image"
-                                                            },
-                                                            {
-                                                                "type": "text",
-                                                                "data": {
-                                                                    "text": "Touch Controls"
-                                                                },
-                                                                "modifiers": [
-                                                                    {
-                                                                        "type": "textAlignment",
-                                                                        "data": {
-                                                                            "textAlignment": "leading"
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "type": "frame",
-                                                                        "data": {
-                                                                            "maxWidth": "infinity",
-                                                                            "minWidth": 0,
-                                                                            "alignment": "leading"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            },
-                                                            {
-                                                                "type": "image",
-                                                                "data": {
-                                                                    "systemName": "chevron.right"
-                                                                }
-                                                            }
-                                                        ],
-                                                        "spacing": 16
-                                                    },
-                                                    "type": "hStack",
-                                                    "modifiers": [
-                                                        {
-                                                            "type": "foregroundColor",
-                                                            "data": {
-                                                                "color": {
-                                                                    "adaptive": {
-                                                                        "light": {
-                                                                            "red": 0.0,
-                                                                            "green": 0.0,
-                                                                            "blue": 0.0
-                                                                        },
-                                                                        "dark": {
-                                                                            "red": 1.0,
-                                                                            "green": 1.0,
-                                                                            "blue": 1.0
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                        },
-                                                        {
-                                                            "type": "padding",
-                                                            "data": {
-                                                                "edges": "all",
-                                                                "length": 16,
-                                                            }
-                                                        }
-                                                    ]
-                                                }
-                                            }
                                         }
                                     ]
                                 },
